@@ -49,6 +49,7 @@ function FlightSearch() {
                 </div>
                <input type="date"   min={minDate}  />
             </div>
+            <button className='button' type='submit' />
             <>
                 {search ? <FlightResult /> : null}
             </>
