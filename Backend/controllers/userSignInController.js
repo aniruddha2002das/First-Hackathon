@@ -31,11 +31,12 @@ exports.checkID = async (req, res) => {
         const ursEmail = await usr_signIn.findOne({ email: mail });
         if (ursEmail != null) {
             const password_match = await bcrypt.compare(pass, ursEmail.password);
-
+            console.log(pass);
+            console.log(mail);
             if (password_match) {
-                return res.json({status:'ok',user: 'true'})
+                return res.json({status:'ok',user: true})
             } else {
-                return res.json({status:'error',user: 'false'})
+                return res.json({status:'error',user: false})
             }
 
         } else {

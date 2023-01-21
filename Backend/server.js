@@ -7,13 +7,13 @@ const connectDatabase = require('./db/connection');
 const SignInRouter = require('./routers/userSignInRouter');
 const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({ extended: false }));
-
+const cors = require('cors');
 const LogInRouter = require('./routers/userLogInRouter');
 const flightRouter = require('./routers/FlightRouter');
 // connection with database
 connectDatabase(database_url);
 app.use(express.json());
-
+app.use(cors());
 app.use('/register', SignInRouter);
 app.use('/login', LogInRouter);
 app.use('/flights',flightRouter);

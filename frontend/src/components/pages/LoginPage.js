@@ -12,7 +12,7 @@ function LoginPage() {
 	async function loginUser(event) {
 		event.preventDefault()
 
-		if (email == "" || password == "") {
+		if (email === "" || password === "") {
 
 			alert('No Empty Fields allowed')
 		}
@@ -32,8 +32,9 @@ function LoginPage() {
 			})
 
 			const data = await response.json()
-
-			if (data.user) {
+			
+			console.log(data);
+			if (data.user === true) {
 				// localStorage.setItem('token', data.user)
 				alert('Login successful')
 				window.location.href = '/home'
