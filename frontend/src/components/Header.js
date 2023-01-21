@@ -1,21 +1,24 @@
 import React from 'react'
+import './Header.css'
+import { Link } from 'react-router-dom'
 
 export default function Header() {
   return (
-    <nav class="navbar navbar-default">
-        <div class="container">
-            <div class="navbar-header">
-                <p class="navbar-brand"><a href="/">E-commerce</a></p>
-            </div>
-            <ul class="nav navbar-nav navbar-right">
-                <li id="home"><a href="/">HOME</a></li>
-                <li id="about"><a href="/poststore">POSTS</a></li>
-                <li id="signin"><a href="/signin">SIGN IN</a></li>
-                <li id="signup"><a href="/signup">SIGN UP</a></li>
-                <li id="add_post"><a href="/add_posts">ADD POST</a></li>
-            </ul>
-        </div>
+    <nav className="navbar navbar-default">
+      <div className="containerAnk">
+
+        <div className="brandName">Wonderer</div>
+
+        <ul >
+
+          <Link to={'/home'}><li id="home">HOME</li></Link>
+          <Link to={'/bookings'}><li id="posts">Bookings</li></Link>
+          {/* <Link to={'/addpost'}><li id="add_post">ADD POST</li></Link> */}
+        </ul>
+      </div>
     </nav>
   )
 }
 
+{/* <Link to={'/home'}><li id="signin">SIGN IN</li></Link>
+<Link to={'/home'}><li id="signup">SIGN UP</li></Link> */}

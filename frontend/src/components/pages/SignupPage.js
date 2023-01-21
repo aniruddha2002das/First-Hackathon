@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
-import "./signup.css"
+import "./SignupPage.css"
 
 
-function Signup() {
+function SignupPage() {
 
     const [user,setUser]=useState({
         name:"",email:"",password:"",cpassword:""
@@ -90,4 +90,4 @@ function Signup() {
   )
 }
 
-export default Signup
+export default SignupPage

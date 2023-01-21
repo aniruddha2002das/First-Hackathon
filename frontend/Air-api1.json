@@ -1,0 +1,3307 @@
+{
+    "OTA_AirDetailsRS": {
+        "$": {
+            "PrimaryLangID": "eng",
+            "Version": "1.0",
+            "TransactionIdentifier": "",
+            "FLSNote": "This XML adds attributes not in the OTA XML spec.  All such attributes start with FLS",
+            "FLSDevice": "ota-xml-expanded",
+            "xmlns": "http://www.opentravel.org/OTA/2003/05"
+        },
+        "Success": [
+            ""
+        ],
+        "FLSResponseFields": [
+            {
+                "$": {
+                    "FLSOriginCode": "BOM",
+                    "FLSOriginName": "Chhatrapati Shivaji Maharaj Airport",
+                    "FLSDestinationCode": "CCU",
+                    "FLSDestinationName": "Subhas Chandra Bose Airport",
+                    "FLSStartDate": "2023-01-25",
+                    "FLSEndDate": "2023-01-25",
+                    "FLSResultCount": "32",
+                    "FLSRoutesFound": "147",
+                    "FLSBranchCount": "448",
+                    "FLSTargetCount": "479",
+                    "FLSRecordCount": "48189"
+                }
+            }
+        ],
+        "FlightDetails": [
+            {
+                "$": {
+                    "TotalFlightTime": "PT4H30M",
+                    "TotalMiles": "1505",
+                    "TotalTripTime": "PT5H15M",
+                    "FLSDepartureDateTime": "2023-01-25T05:25:00",
+                    "FLSDepartureTimeOffset": "+0530",
+                    "FLSDepartureCode": "BOM",
+                    "FLSDepartureName": "Chhatrapati Shivaji Maharaj Airport",
+                    "FLSArrivalDateTime": "2023-01-25T10:40:00",
+                    "FLSArrivalTimeOffset": "+0530",
+                    "FLSArrivalCode": "CCU",
+                    "FLSArrivalName": "Subhas Chandra Bose Airport",
+                    "FLSFlightType": "Connect",
+                    "FLSFlightLegs": "2",
+                    "FLSFlightDays": "..3....",
+                    "FLSDayIndicator": ""
+                },
+                "FlightLegDetails": [
+                    {
+                        "$": {
+                            "DepartureDateTime": "2023-01-25T05:25:00",
+                            "FLSDepartureTimeOffset": "+0530",
+                            "ArrivalDateTime": "2023-01-25T07:25:00",
+                            "FLSArrivalTimeOffset": "+0530",
+                            "FlightNumber": "570",
+                            "JourneyDuration": "PT2H00M",
+                            "SequenceNumber": "1",
+                            "LegDistance": "644",
+                            "FLSMeals": "B",
+                            "FLSInflightServices": "  1/  9",
+                            "FLSUUID": "BOMMAA20230125AI570"
+                        },
+                        "DepartureAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "BOM",
+                                    "FLSLocationName": "Chhatrapati Shivaji Maharaj Airport",
+                                    "Terminal": "2",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "ArrivalAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "MAA",
+                                    "FLSLocationName": "Chennai International Airport",
+                                    "Terminal": "1",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "MarketingAirline": [
+                            {
+                                "$": {
+                                    "Code": "AI",
+                                    "CodeContext": "IATA",
+                                    "CompanyShortName": "Air India"
+                                }
+                            }
+                        ],
+                        "Equipment": [
+                            {
+                                "$": {
+                                    "AirEquipType": "32N"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "$": {
+                            "DepartureDateTime": "2023-01-25T08:10:00",
+                            "FLSDepartureTimeOffset": "+0530",
+                            "ArrivalDateTime": "2023-01-25T10:40:00",
+                            "FLSArrivalTimeOffset": "+0530",
+                            "FlightNumber": "786",
+                            "JourneyDuration": "PT2H30M",
+                            "SequenceNumber": "2",
+                            "LegDistance": "861",
+                            "FLSMeals": "S",
+                            "FLSInflightServices": "  1/  9",
+                            "FLSUUID": "MAACCU20230125AI786"
+                        },
+                        "DepartureAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "MAA",
+                                    "FLSLocationName": "Chennai International Airport",
+                                    "Terminal": "1",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "ArrivalAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "CCU",
+                                    "FLSLocationName": "Subhas Chandra Bose Airport",
+                                    "Terminal": " ",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "MarketingAirline": [
+                            {
+                                "$": {
+                                    "Code": "AI",
+                                    "CodeContext": "IATA",
+                                    "CompanyShortName": "Air India"
+                                }
+                            }
+                        ],
+                        "Equipment": [
+                            {
+                                "$": {
+                                    "AirEquipType": "32N"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "$": {
+                    "TotalFlightTime": "PT3H05M",
+                    "TotalMiles": "1037",
+                    "TotalTripTime": "PT3H05M",
+                    "FLSDepartureDateTime": "2023-01-25T05:45:00",
+                    "FLSDepartureTimeOffset": "+0530",
+                    "FLSDepartureCode": "BOM",
+                    "FLSDepartureName": "Chhatrapati Shivaji Maharaj Airport",
+                    "FLSArrivalDateTime": "2023-01-25T08:50:00",
+                    "FLSArrivalTimeOffset": "+0530",
+                    "FLSArrivalCode": "CCU",
+                    "FLSArrivalName": "Subhas Chandra Bose Airport",
+                    "FLSFlightType": "NonStop",
+                    "FLSFlightLegs": "1",
+                    "FLSFlightDays": "..3....",
+                    "FLSDayIndicator": ""
+                },
+                "FlightLegDetails": [
+                    {
+                        "$": {
+                            "DepartureDateTime": "2023-01-25T05:45:00",
+                            "FLSDepartureTimeOffset": "+0530",
+                            "ArrivalDateTime": "2023-01-25T08:50:00",
+                            "FLSArrivalTimeOffset": "+0530",
+                            "FlightNumber": "675",
+                            "JourneyDuration": "PT3H05M",
+                            "SequenceNumber": "1",
+                            "LegDistance": "1037",
+                            "FLSMeals": "B",
+                            "FLSInflightServices": "  9",
+                            "FLSUUID": "BOMCCU20230125AI675"
+                        },
+                        "DepartureAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "BOM",
+                                    "FLSLocationName": "Chhatrapati Shivaji Maharaj Airport",
+                                    "Terminal": "2",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "ArrivalAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "CCU",
+                                    "FLSLocationName": "Subhas Chandra Bose Airport",
+                                    "Terminal": " ",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "MarketingAirline": [
+                            {
+                                "$": {
+                                    "Code": "AI",
+                                    "CodeContext": "IATA",
+                                    "CompanyShortName": "Air India"
+                                }
+                            }
+                        ],
+                        "Equipment": [
+                            {
+                                "$": {
+                                    "AirEquipType": "32A"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "$": {
+                    "TotalFlightTime": "PT2H50M",
+                    "TotalMiles": "1037",
+                    "TotalTripTime": "PT2H50M",
+                    "FLSDepartureDateTime": "2023-01-25T06:05:00",
+                    "FLSDepartureTimeOffset": "+0530",
+                    "FLSDepartureCode": "BOM",
+                    "FLSDepartureName": "Chhatrapati Shivaji Maharaj Airport",
+                    "FLSArrivalDateTime": "2023-01-25T08:55:00",
+                    "FLSArrivalTimeOffset": "+0530",
+                    "FLSArrivalCode": "CCU",
+                    "FLSArrivalName": "Subhas Chandra Bose Airport",
+                    "FLSFlightType": "NonStop",
+                    "FLSFlightLegs": "1",
+                    "FLSFlightDays": "..3....",
+                    "FLSDayIndicator": ""
+                },
+                "FlightLegDetails": [
+                    {
+                        "$": {
+                            "DepartureDateTime": "2023-01-25T06:05:00",
+                            "FLSDepartureTimeOffset": "+0530",
+                            "ArrivalDateTime": "2023-01-25T08:55:00",
+                            "FLSArrivalTimeOffset": "+0530",
+                            "FlightNumber": "241",
+                            "JourneyDuration": "PT2H50M",
+                            "SequenceNumber": "1",
+                            "LegDistance": "1037",
+                            "FLSMeals": "",
+                            "FLSInflightServices": " ",
+                            "FLSUUID": "BOMCCU20230125SG241"
+                        },
+                        "DepartureAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "BOM",
+                                    "FLSLocationName": "Chhatrapati Shivaji Maharaj Airport",
+                                    "Terminal": "2",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "ArrivalAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "CCU",
+                                    "FLSLocationName": "Subhas Chandra Bose Airport",
+                                    "Terminal": " ",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "MarketingAirline": [
+                            {
+                                "$": {
+                                    "Code": "SG",
+                                    "CodeContext": "IATA",
+                                    "CompanyShortName": "SpiceJet"
+                                }
+                            }
+                        ],
+                        "Equipment": [
+                            {
+                                "$": {
+                                    "AirEquipType": "738"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "$": {
+                    "TotalFlightTime": "PT4H10M",
+                    "TotalMiles": "1481",
+                    "TotalTripTime": "PT5H35M",
+                    "FLSDepartureDateTime": "2023-01-25T06:05:00",
+                    "FLSDepartureTimeOffset": "+0530",
+                    "FLSDepartureCode": "BOM",
+                    "FLSDepartureName": "Chhatrapati Shivaji Maharaj Airport",
+                    "FLSArrivalDateTime": "2023-01-25T11:40:00",
+                    "FLSArrivalTimeOffset": "+0530",
+                    "FLSArrivalCode": "CCU",
+                    "FLSArrivalName": "Subhas Chandra Bose Airport",
+                    "FLSFlightType": "Connect",
+                    "FLSFlightLegs": "2",
+                    "FLSFlightDays": "..3....",
+                    "FLSDayIndicator": ""
+                },
+                "FlightLegDetails": [
+                    {
+                        "$": {
+                            "DepartureDateTime": "2023-01-25T06:05:00",
+                            "FLSDepartureTimeOffset": "+0530",
+                            "ArrivalDateTime": "2023-01-25T07:50:00",
+                            "FLSArrivalTimeOffset": "+0530",
+                            "FlightNumber": "5352",
+                            "JourneyDuration": "PT1H45M",
+                            "SequenceNumber": "1",
+                            "LegDistance": "519",
+                            "FLSMeals": "F",
+                            "FLSInflightServices": " ",
+                            "FLSUUID": "BOMBLR202301256E5352"
+                        },
+                        "DepartureAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "BOM",
+                                    "FLSLocationName": "Chhatrapati Shivaji Maharaj Airport",
+                                    "Terminal": "1",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "ArrivalAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "BLR",
+                                    "FLSLocationName": "Kempegowda International Airport",
+                                    "Terminal": " ",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "MarketingAirline": [
+                            {
+                                "$": {
+                                    "Code": "6E",
+                                    "CodeContext": "IATA",
+                                    "CompanyShortName": "IndiGo"
+                                }
+                            }
+                        ],
+                        "Equipment": [
+                            {
+                                "$": {
+                                    "AirEquipType": "320"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "$": {
+                            "DepartureDateTime": "2023-01-25T09:15:00",
+                            "FLSDepartureTimeOffset": "+0530",
+                            "ArrivalDateTime": "2023-01-25T11:40:00",
+                            "FLSArrivalTimeOffset": "+0530",
+                            "FlightNumber": "455",
+                            "JourneyDuration": "PT2H25M",
+                            "SequenceNumber": "2",
+                            "LegDistance": "962",
+                            "FLSMeals": "F",
+                            "FLSInflightServices": " ",
+                            "FLSUUID": "BLRCCU202301256E455"
+                        },
+                        "DepartureAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "BLR",
+                                    "FLSLocationName": "Kempegowda International Airport",
+                                    "Terminal": " ",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "ArrivalAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "CCU",
+                                    "FLSLocationName": "Subhas Chandra Bose Airport",
+                                    "Terminal": " ",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "MarketingAirline": [
+                            {
+                                "$": {
+                                    "Code": "6E",
+                                    "CodeContext": "IATA",
+                                    "CompanyShortName": "IndiGo"
+                                }
+                            }
+                        ],
+                        "Equipment": [
+                            {
+                                "$": {
+                                    "AirEquipType": "320"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "$": {
+                    "TotalFlightTime": "PT3H10M",
+                    "TotalMiles": "1037",
+                    "TotalTripTime": "PT4H55M",
+                    "FLSDepartureDateTime": "2023-01-25T06:10:00",
+                    "FLSDepartureTimeOffset": "+0530",
+                    "FLSDepartureCode": "BOM",
+                    "FLSDepartureName": "Chhatrapati Shivaji Maharaj Airport",
+                    "FLSArrivalDateTime": "2023-01-25T11:05:00",
+                    "FLSArrivalTimeOffset": "+0530",
+                    "FLSArrivalCode": "CCU",
+                    "FLSArrivalName": "Subhas Chandra Bose Airport",
+                    "FLSFlightType": "Connect",
+                    "FLSFlightLegs": "2",
+                    "FLSFlightDays": "..3....",
+                    "FLSDayIndicator": ""
+                },
+                "FlightLegDetails": [
+                    {
+                        "$": {
+                            "DepartureDateTime": "2023-01-25T06:10:00",
+                            "FLSDepartureTimeOffset": "+0530",
+                            "ArrivalDateTime": "2023-01-25T07:55:00",
+                            "FLSArrivalTimeOffset": "+0530",
+                            "FlightNumber": "5079",
+                            "JourneyDuration": "PT1H45M",
+                            "SequenceNumber": "1",
+                            "LegDistance": "595",
+                            "FLSMeals": "F",
+                            "FLSInflightServices": " ",
+                            "FLSUUID": "BOMRPR202301256E5079"
+                        },
+                        "DepartureAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "BOM",
+                                    "FLSLocationName": "Chhatrapati Shivaji Maharaj Airport",
+                                    "Terminal": "1",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "ArrivalAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "RPR",
+                                    "FLSLocationName": "Swami Vivekananda Airport",
+                                    "Terminal": " ",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "MarketingAirline": [
+                            {
+                                "$": {
+                                    "Code": "6E",
+                                    "CodeContext": "IATA",
+                                    "CompanyShortName": "IndiGo"
+                                }
+                            }
+                        ],
+                        "Equipment": [
+                            {
+                                "$": {
+                                    "AirEquipType": "320"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "$": {
+                            "DepartureDateTime": "2023-01-25T09:40:00",
+                            "FLSDepartureTimeOffset": "+0530",
+                            "ArrivalDateTime": "2023-01-25T11:05:00",
+                            "FLSArrivalTimeOffset": "+0530",
+                            "FlightNumber": "669",
+                            "JourneyDuration": "PT1H25M",
+                            "SequenceNumber": "2",
+                            "LegDistance": "442",
+                            "FLSMeals": "F",
+                            "FLSInflightServices": " ",
+                            "FLSUUID": "RPRCCU202301256E669"
+                        },
+                        "DepartureAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "RPR",
+                                    "FLSLocationName": "Swami Vivekananda Airport",
+                                    "Terminal": " ",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "ArrivalAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "CCU",
+                                    "FLSLocationName": "Subhas Chandra Bose Airport",
+                                    "Terminal": " ",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "MarketingAirline": [
+                            {
+                                "$": {
+                                    "Code": "6E",
+                                    "CodeContext": "IATA",
+                                    "CompanyShortName": "IndiGo"
+                                }
+                            }
+                        ],
+                        "Equipment": [
+                            {
+                                "$": {
+                                    "AirEquipType": "320"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "$": {
+                    "TotalFlightTime": "PT2H20M",
+                    "TotalMiles": "1037",
+                    "TotalTripTime": "PT2H20M",
+                    "FLSDepartureDateTime": "2023-01-25T06:25:00",
+                    "FLSDepartureTimeOffset": "+0530",
+                    "FLSDepartureCode": "BOM",
+                    "FLSDepartureName": "Chhatrapati Shivaji Maharaj Airport",
+                    "FLSArrivalDateTime": "2023-01-25T08:45:00",
+                    "FLSArrivalTimeOffset": "+0530",
+                    "FLSArrivalCode": "CCU",
+                    "FLSArrivalName": "Subhas Chandra Bose Airport",
+                    "FLSFlightType": "NonStop",
+                    "FLSFlightLegs": "1",
+                    "FLSFlightDays": "..3....",
+                    "FLSDayIndicator": ""
+                },
+                "FlightLegDetails": [
+                    {
+                        "$": {
+                            "DepartureDateTime": "2023-01-25T06:25:00",
+                            "FLSDepartureTimeOffset": "+0530",
+                            "ArrivalDateTime": "2023-01-25T08:45:00",
+                            "FLSArrivalTimeOffset": "+0530",
+                            "FlightNumber": "6514",
+                            "JourneyDuration": "PT2H20M",
+                            "SequenceNumber": "1",
+                            "LegDistance": "1037",
+                            "FLSMeals": "F",
+                            "FLSInflightServices": " ",
+                            "FLSUUID": "BOMCCU202301256E6514"
+                        },
+                        "DepartureAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "BOM",
+                                    "FLSLocationName": "Chhatrapati Shivaji Maharaj Airport",
+                                    "Terminal": "2",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "ArrivalAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "CCU",
+                                    "FLSLocationName": "Subhas Chandra Bose Airport",
+                                    "Terminal": " ",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "MarketingAirline": [
+                            {
+                                "$": {
+                                    "Code": "6E",
+                                    "CodeContext": "IATA",
+                                    "CompanyShortName": "IndiGo"
+                                }
+                            }
+                        ],
+                        "Equipment": [
+                            {
+                                "$": {
+                                    "AirEquipType": "321"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "$": {
+                    "TotalFlightTime": "PT3H35M",
+                    "TotalMiles": "1285",
+                    "TotalTripTime": "PT5H20M",
+                    "FLSDepartureDateTime": "2023-01-25T06:30:00",
+                    "FLSDepartureTimeOffset": "+0530",
+                    "FLSDepartureCode": "BOM",
+                    "FLSDepartureName": "Chhatrapati Shivaji Maharaj Airport",
+                    "FLSArrivalDateTime": "2023-01-25T11:50:00",
+                    "FLSArrivalTimeOffset": "+0530",
+                    "FLSArrivalCode": "CCU",
+                    "FLSArrivalName": "Subhas Chandra Bose Airport",
+                    "FLSFlightType": "Connect",
+                    "FLSFlightLegs": "2",
+                    "FLSFlightDays": "..3....",
+                    "FLSDayIndicator": ""
+                },
+                "FlightLegDetails": [
+                    {
+                        "$": {
+                            "DepartureDateTime": "2023-01-25T06:30:00",
+                            "FLSDepartureTimeOffset": "+0530",
+                            "ArrivalDateTime": "2023-01-25T07:45:00",
+                            "FLSArrivalTimeOffset": "+0530",
+                            "FlightNumber": "6183",
+                            "JourneyDuration": "PT1H15M",
+                            "SequenceNumber": "1",
+                            "LegDistance": "276",
+                            "FLSMeals": "F",
+                            "FLSInflightServices": " ",
+                            "FLSUUID": "BOMAMD202301256E6183"
+                        },
+                        "DepartureAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "BOM",
+                                    "FLSLocationName": "Chhatrapati Shivaji Maharaj Airport",
+                                    "Terminal": "2",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "ArrivalAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "AMD",
+                                    "FLSLocationName": "Sardar VallabhBhai Patel Airport",
+                                    "Terminal": "1",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "MarketingAirline": [
+                            {
+                                "$": {
+                                    "Code": "6E",
+                                    "CodeContext": "IATA",
+                                    "CompanyShortName": "IndiGo"
+                                }
+                            }
+                        ],
+                        "Equipment": [
+                            {
+                                "$": {
+                                    "AirEquipType": "320"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "$": {
+                            "DepartureDateTime": "2023-01-25T09:30:00",
+                            "FLSDepartureTimeOffset": "+0530",
+                            "ArrivalDateTime": "2023-01-25T11:50:00",
+                            "FLSArrivalTimeOffset": "+0530",
+                            "FlightNumber": "751",
+                            "JourneyDuration": "PT2H20M",
+                            "SequenceNumber": "2",
+                            "LegDistance": "1009",
+                            "FLSMeals": "F",
+                            "FLSInflightServices": " ",
+                            "FLSUUID": "AMDCCU202301256E751"
+                        },
+                        "DepartureAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "AMD",
+                                    "FLSLocationName": "Sardar VallabhBhai Patel Airport",
+                                    "Terminal": "1",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "ArrivalAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "CCU",
+                                    "FLSLocationName": "Subhas Chandra Bose Airport",
+                                    "Terminal": " ",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "MarketingAirline": [
+                            {
+                                "$": {
+                                    "Code": "6E",
+                                    "CodeContext": "IATA",
+                                    "CompanyShortName": "IndiGo"
+                                }
+                            }
+                        ],
+                        "Equipment": [
+                            {
+                                "$": {
+                                    "AirEquipType": "320"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "$": {
+                    "TotalFlightTime": "PT2H35M",
+                    "TotalMiles": "1037",
+                    "TotalTripTime": "PT2H35M",
+                    "FLSDepartureDateTime": "2023-01-25T07:05:00",
+                    "FLSDepartureTimeOffset": "+0530",
+                    "FLSDepartureCode": "BOM",
+                    "FLSDepartureName": "Chhatrapati Shivaji Maharaj Airport",
+                    "FLSArrivalDateTime": "2023-01-25T09:40:00",
+                    "FLSArrivalTimeOffset": "+0530",
+                    "FLSArrivalCode": "CCU",
+                    "FLSArrivalName": "Subhas Chandra Bose Airport",
+                    "FLSFlightType": "NonStop",
+                    "FLSFlightLegs": "1",
+                    "FLSFlightDays": "..3....",
+                    "FLSDayIndicator": ""
+                },
+                "FlightLegDetails": [
+                    {
+                        "$": {
+                            "DepartureDateTime": "2023-01-25T07:05:00",
+                            "FLSDepartureTimeOffset": "+0530",
+                            "ArrivalDateTime": "2023-01-25T09:40:00",
+                            "FLSArrivalTimeOffset": "+0530",
+                            "FlightNumber": "771",
+                            "JourneyDuration": "PT2H35M",
+                            "SequenceNumber": "1",
+                            "LegDistance": "1037",
+                            "FLSMeals": "M",
+                            "FLSInflightServices": " ",
+                            "FLSUUID": "BOMCCU20230125UK771"
+                        },
+                        "DepartureAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "BOM",
+                                    "FLSLocationName": "Chhatrapati Shivaji Maharaj Airport",
+                                    "Terminal": "2",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "ArrivalAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "CCU",
+                                    "FLSLocationName": "Subhas Chandra Bose Airport",
+                                    "Terminal": " ",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "MarketingAirline": [
+                            {
+                                "$": {
+                                    "Code": "UK",
+                                    "CodeContext": "IATA",
+                                    "CompanyShortName": "Vistara"
+                                }
+                            }
+                        ],
+                        "Equipment": [
+                            {
+                                "$": {
+                                    "AirEquipType": "73H"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "$": {
+                    "TotalFlightTime": "PT2H40M",
+                    "TotalMiles": "1037",
+                    "TotalTripTime": "PT2H40M",
+                    "FLSDepartureDateTime": "2023-01-25T07:40:00",
+                    "FLSDepartureTimeOffset": "+0530",
+                    "FLSDepartureCode": "BOM",
+                    "FLSDepartureName": "Chhatrapati Shivaji Maharaj Airport",
+                    "FLSArrivalDateTime": "2023-01-25T10:20:00",
+                    "FLSArrivalTimeOffset": "+0530",
+                    "FLSArrivalCode": "CCU",
+                    "FLSArrivalName": "Subhas Chandra Bose Airport",
+                    "FLSFlightType": "NonStop",
+                    "FLSFlightLegs": "1",
+                    "FLSFlightDays": "..3....",
+                    "FLSDayIndicator": ""
+                },
+                "FlightLegDetails": [
+                    {
+                        "$": {
+                            "DepartureDateTime": "2023-01-25T07:40:00",
+                            "FLSDepartureTimeOffset": "+0530",
+                            "ArrivalDateTime": "2023-01-25T10:20:00",
+                            "FLSArrivalTimeOffset": "+0530",
+                            "FlightNumber": "6749",
+                            "JourneyDuration": "PT2H40M",
+                            "SequenceNumber": "1",
+                            "LegDistance": "1037",
+                            "FLSMeals": "F",
+                            "FLSInflightServices": " ",
+                            "FLSUUID": "BOMCCU202301256E6749"
+                        },
+                        "DepartureAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "BOM",
+                                    "FLSLocationName": "Chhatrapati Shivaji Maharaj Airport",
+                                    "Terminal": "2",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "ArrivalAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "CCU",
+                                    "FLSLocationName": "Subhas Chandra Bose Airport",
+                                    "Terminal": " ",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "MarketingAirline": [
+                            {
+                                "$": {
+                                    "Code": "6E",
+                                    "CodeContext": "IATA",
+                                    "CompanyShortName": "IndiGo"
+                                }
+                            }
+                        ],
+                        "Equipment": [
+                            {
+                                "$": {
+                                    "AirEquipType": "320"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "$": {
+                    "TotalFlightTime": "PT3H05M",
+                    "TotalMiles": "1039",
+                    "TotalTripTime": "PT4H45M",
+                    "FLSDepartureDateTime": "2023-01-25T09:05:00",
+                    "FLSDepartureTimeOffset": "+0530",
+                    "FLSDepartureCode": "BOM",
+                    "FLSDepartureName": "Chhatrapati Shivaji Maharaj Airport",
+                    "FLSArrivalDateTime": "2023-01-25T13:50:00",
+                    "FLSArrivalTimeOffset": "+0530",
+                    "FLSArrivalCode": "CCU",
+                    "FLSArrivalName": "Subhas Chandra Bose Airport",
+                    "FLSFlightType": "Connect",
+                    "FLSFlightLegs": "2",
+                    "FLSFlightDays": "..3....",
+                    "FLSDayIndicator": ""
+                },
+                "FlightLegDetails": [
+                    {
+                        "$": {
+                            "DepartureDateTime": "2023-01-25T09:05:00",
+                            "FLSDepartureTimeOffset": "+0530",
+                            "ArrivalDateTime": "2023-01-25T10:30:00",
+                            "FLSArrivalTimeOffset": "+0530",
+                            "FlightNumber": "5273",
+                            "JourneyDuration": "PT1H25M",
+                            "SequenceNumber": "1",
+                            "LegDistance": "426",
+                            "FLSMeals": "F",
+                            "FLSInflightServices": " ",
+                            "FLSUUID": "BOMNAG202301256E5273"
+                        },
+                        "DepartureAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "BOM",
+                                    "FLSLocationName": "Chhatrapati Shivaji Maharaj Airport",
+                                    "Terminal": "1",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "ArrivalAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "NAG",
+                                    "FLSLocationName": "Dr.Ambedkar International Airport",
+                                    "Terminal": " ",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "MarketingAirline": [
+                            {
+                                "$": {
+                                    "Code": "6E",
+                                    "CodeContext": "IATA",
+                                    "CompanyShortName": "IndiGo"
+                                }
+                            }
+                        ],
+                        "Equipment": [
+                            {
+                                "$": {
+                                    "AirEquipType": "321"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "$": {
+                            "DepartureDateTime": "2023-01-25T12:10:00",
+                            "FLSDepartureTimeOffset": "+0530",
+                            "ArrivalDateTime": "2023-01-25T13:50:00",
+                            "FLSArrivalTimeOffset": "+0530",
+                            "FlightNumber": "6396",
+                            "JourneyDuration": "PT1H40M",
+                            "SequenceNumber": "2",
+                            "LegDistance": "613",
+                            "FLSMeals": "F",
+                            "FLSInflightServices": " ",
+                            "FLSUUID": "NAGCCU202301256E6396"
+                        },
+                        "DepartureAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "NAG",
+                                    "FLSLocationName": "Dr.Ambedkar International Airport",
+                                    "Terminal": " ",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "ArrivalAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "CCU",
+                                    "FLSLocationName": "Subhas Chandra Bose Airport",
+                                    "Terminal": " ",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "MarketingAirline": [
+                            {
+                                "$": {
+                                    "Code": "6E",
+                                    "CodeContext": "IATA",
+                                    "CompanyShortName": "IndiGo"
+                                }
+                            }
+                        ],
+                        "Equipment": [
+                            {
+                                "$": {
+                                    "AirEquipType": "320"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "$": {
+                    "TotalFlightTime": "PT2H45M",
+                    "TotalMiles": "1037",
+                    "TotalTripTime": "PT2H45M",
+                    "FLSDepartureDateTime": "2023-01-25T09:55:00",
+                    "FLSDepartureTimeOffset": "+0530",
+                    "FLSDepartureCode": "BOM",
+                    "FLSDepartureName": "Chhatrapati Shivaji Maharaj Airport",
+                    "FLSArrivalDateTime": "2023-01-25T12:40:00",
+                    "FLSArrivalTimeOffset": "+0530",
+                    "FLSArrivalCode": "CCU",
+                    "FLSArrivalName": "Subhas Chandra Bose Airport",
+                    "FLSFlightType": "NonStop",
+                    "FLSFlightLegs": "1",
+                    "FLSFlightDays": "..3....",
+                    "FLSDayIndicator": ""
+                },
+                "FlightLegDetails": [
+                    {
+                        "$": {
+                            "DepartureDateTime": "2023-01-25T09:55:00",
+                            "FLSDepartureTimeOffset": "+0530",
+                            "ArrivalDateTime": "2023-01-25T12:40:00",
+                            "FLSArrivalTimeOffset": "+0530",
+                            "FlightNumber": "5253",
+                            "JourneyDuration": "PT2H45M",
+                            "SequenceNumber": "1",
+                            "LegDistance": "1037",
+                            "FLSMeals": "F",
+                            "FLSInflightServices": " ",
+                            "FLSUUID": "BOMCCU202301256E5253"
+                        },
+                        "DepartureAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "BOM",
+                                    "FLSLocationName": "Chhatrapati Shivaji Maharaj Airport",
+                                    "Terminal": "1",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "ArrivalAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "CCU",
+                                    "FLSLocationName": "Subhas Chandra Bose Airport",
+                                    "Terminal": " ",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "MarketingAirline": [
+                            {
+                                "$": {
+                                    "Code": "6E",
+                                    "CodeContext": "IATA",
+                                    "CompanyShortName": "IndiGo"
+                                }
+                            }
+                        ],
+                        "Equipment": [
+                            {
+                                "$": {
+                                    "AirEquipType": "320"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "$": {
+                    "TotalFlightTime": "PT4H10M",
+                    "TotalMiles": "1505",
+                    "TotalTripTime": "PT5H45M",
+                    "FLSDepartureDateTime": "2023-01-25T10:15:00",
+                    "FLSDepartureTimeOffset": "+0530",
+                    "FLSDepartureCode": "BOM",
+                    "FLSDepartureName": "Chhatrapati Shivaji Maharaj Airport",
+                    "FLSArrivalDateTime": "2023-01-25T16:00:00",
+                    "FLSArrivalTimeOffset": "+0530",
+                    "FLSArrivalCode": "CCU",
+                    "FLSArrivalName": "Subhas Chandra Bose Airport",
+                    "FLSFlightType": "Connect",
+                    "FLSFlightLegs": "2",
+                    "FLSFlightDays": "..3....",
+                    "FLSDayIndicator": ""
+                },
+                "FlightLegDetails": [
+                    {
+                        "$": {
+                            "DepartureDateTime": "2023-01-25T10:15:00",
+                            "FLSDepartureTimeOffset": "+0530",
+                            "ArrivalDateTime": "2023-01-25T12:10:00",
+                            "FLSArrivalTimeOffset": "+0530",
+                            "FlightNumber": "5307",
+                            "JourneyDuration": "PT1H55M",
+                            "SequenceNumber": "1",
+                            "LegDistance": "644",
+                            "FLSMeals": "F",
+                            "FLSInflightServices": " ",
+                            "FLSUUID": "BOMMAA202301256E5307"
+                        },
+                        "DepartureAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "BOM",
+                                    "FLSLocationName": "Chhatrapati Shivaji Maharaj Airport",
+                                    "Terminal": "1",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "ArrivalAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "MAA",
+                                    "FLSLocationName": "Chennai International Airport",
+                                    "Terminal": "1",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "MarketingAirline": [
+                            {
+                                "$": {
+                                    "Code": "6E",
+                                    "CodeContext": "IATA",
+                                    "CompanyShortName": "IndiGo"
+                                }
+                            }
+                        ],
+                        "Equipment": [
+                            {
+                                "$": {
+                                    "AirEquipType": "320"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "$": {
+                            "DepartureDateTime": "2023-01-25T13:45:00",
+                            "FLSDepartureTimeOffset": "+0530",
+                            "ArrivalDateTime": "2023-01-25T16:00:00",
+                            "FLSArrivalTimeOffset": "+0530",
+                            "FlightNumber": "6326",
+                            "JourneyDuration": "PT2H15M",
+                            "SequenceNumber": "2",
+                            "LegDistance": "861",
+                            "FLSMeals": "F",
+                            "FLSInflightServices": " ",
+                            "FLSUUID": "MAACCU202301256E6326"
+                        },
+                        "DepartureAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "MAA",
+                                    "FLSLocationName": "Chennai International Airport",
+                                    "Terminal": "1",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "ArrivalAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "CCU",
+                                    "FLSLocationName": "Subhas Chandra Bose Airport",
+                                    "Terminal": " ",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "MarketingAirline": [
+                            {
+                                "$": {
+                                    "Code": "6E",
+                                    "CodeContext": "IATA",
+                                    "CompanyShortName": "IndiGo"
+                                }
+                            }
+                        ],
+                        "Equipment": [
+                            {
+                                "$": {
+                                    "AirEquipType": "321"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "$": {
+                    "TotalFlightTime": "PT3H30M",
+                    "TotalMiles": "1085",
+                    "TotalTripTime": "PT4H50M",
+                    "FLSDepartureDateTime": "2023-01-25T10:50:00",
+                    "FLSDepartureTimeOffset": "+0530",
+                    "FLSDepartureCode": "BOM",
+                    "FLSDepartureName": "Chhatrapati Shivaji Maharaj Airport",
+                    "FLSArrivalDateTime": "2023-01-25T15:40:00",
+                    "FLSArrivalTimeOffset": "+0530",
+                    "FLSArrivalCode": "CCU",
+                    "FLSArrivalName": "Subhas Chandra Bose Airport",
+                    "FLSFlightType": "Connect",
+                    "FLSFlightLegs": "2",
+                    "FLSFlightDays": "..3....",
+                    "FLSDayIndicator": ""
+                },
+                "FlightLegDetails": [
+                    {
+                        "$": {
+                            "DepartureDateTime": "2023-01-25T10:50:00",
+                            "FLSDepartureTimeOffset": "+0530",
+                            "ArrivalDateTime": "2023-01-25T13:00:00",
+                            "FLSArrivalTimeOffset": "+0530",
+                            "FlightNumber": "5301",
+                            "JourneyDuration": "PT2H10M",
+                            "SequenceNumber": "1",
+                            "LegDistance": "848",
+                            "FLSMeals": "F",
+                            "FLSInflightServices": " ",
+                            "FLSUUID": "BOMBBI202301256E5301"
+                        },
+                        "DepartureAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "BOM",
+                                    "FLSLocationName": "Chhatrapati Shivaji Maharaj Airport",
+                                    "Terminal": "1",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "ArrivalAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "BBI",
+                                    "FLSLocationName": "Biju Patnaik Airport",
+                                    "Terminal": "1",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "MarketingAirline": [
+                            {
+                                "$": {
+                                    "Code": "6E",
+                                    "CodeContext": "IATA",
+                                    "CompanyShortName": "IndiGo"
+                                }
+                            }
+                        ],
+                        "Equipment": [
+                            {
+                                "$": {
+                                    "AirEquipType": "321"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "$": {
+                            "DepartureDateTime": "2023-01-25T14:20:00",
+                            "FLSDepartureTimeOffset": "+0530",
+                            "ArrivalDateTime": "2023-01-25T15:40:00",
+                            "FLSArrivalTimeOffset": "+0530",
+                            "FlightNumber": "7584",
+                            "JourneyDuration": "PT1H20M",
+                            "SequenceNumber": "2",
+                            "LegDistance": "237",
+                            "FLSMeals": "F",
+                            "FLSInflightServices": " ",
+                            "FLSUUID": "BBICCU202301256E7584"
+                        },
+                        "DepartureAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "BBI",
+                                    "FLSLocationName": "Biju Patnaik Airport",
+                                    "Terminal": "1",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "ArrivalAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "CCU",
+                                    "FLSLocationName": "Subhas Chandra Bose Airport",
+                                    "Terminal": " ",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "MarketingAirline": [
+                            {
+                                "$": {
+                                    "Code": "6E",
+                                    "CodeContext": "IATA",
+                                    "CompanyShortName": "IndiGo"
+                                }
+                            }
+                        ],
+                        "Equipment": [
+                            {
+                                "$": {
+                                    "AirEquipType": "ATR"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "$": {
+                    "TotalFlightTime": "PT4H45M",
+                    "TotalMiles": "1526",
+                    "TotalTripTime": "PT5H40M",
+                    "FLSDepartureDateTime": "2023-01-25T12:25:00",
+                    "FLSDepartureTimeOffset": "+0530",
+                    "FLSDepartureCode": "BOM",
+                    "FLSDepartureName": "Chhatrapati Shivaji Maharaj Airport",
+                    "FLSArrivalDateTime": "2023-01-25T18:05:00",
+                    "FLSArrivalTimeOffset": "+0530",
+                    "FLSArrivalCode": "CCU",
+                    "FLSArrivalName": "Subhas Chandra Bose Airport",
+                    "FLSFlightType": "Connect",
+                    "FLSFlightLegs": "2",
+                    "FLSFlightDays": "..3....",
+                    "FLSDayIndicator": ""
+                },
+                "FlightLegDetails": [
+                    {
+                        "$": {
+                            "DepartureDateTime": "2023-01-25T12:25:00",
+                            "FLSDepartureTimeOffset": "+0530",
+                            "ArrivalDateTime": "2023-01-25T14:50:00",
+                            "FLSArrivalTimeOffset": "+0530",
+                            "FlightNumber": "952",
+                            "JourneyDuration": "PT2H25M",
+                            "SequenceNumber": "1",
+                            "LegDistance": "709",
+                            "FLSMeals": "M",
+                            "FLSInflightServices": " ",
+                            "FLSUUID": "BOMDEL20230125UK952"
+                        },
+                        "DepartureAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "BOM",
+                                    "FLSLocationName": "Chhatrapati Shivaji Maharaj Airport",
+                                    "Terminal": "2",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "ArrivalAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "DEL",
+                                    "FLSLocationName": "Indira Gandhi International Airport",
+                                    "Terminal": "3",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "MarketingAirline": [
+                            {
+                                "$": {
+                                    "Code": "UK",
+                                    "CodeContext": "IATA",
+                                    "CompanyShortName": "Vistara"
+                                }
+                            }
+                        ],
+                        "Equipment": [
+                            {
+                                "$": {
+                                    "AirEquipType": "320"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "$": {
+                            "DepartureDateTime": "2023-01-25T15:45:00",
+                            "FLSDepartureTimeOffset": "+0530",
+                            "ArrivalDateTime": "2023-01-25T18:05:00",
+                            "FLSArrivalTimeOffset": "+0530",
+                            "FlightNumber": "737",
+                            "JourneyDuration": "PT2H20M",
+                            "SequenceNumber": "2",
+                            "LegDistance": "817",
+                            "FLSMeals": "M",
+                            "FLSInflightServices": " ",
+                            "FLSUUID": "DELCCU20230125UK737"
+                        },
+                        "DepartureAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "DEL",
+                                    "FLSLocationName": "Indira Gandhi International Airport",
+                                    "Terminal": "3",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "ArrivalAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "CCU",
+                                    "FLSLocationName": "Subhas Chandra Bose Airport",
+                                    "Terminal": " ",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "MarketingAirline": [
+                            {
+                                "$": {
+                                    "Code": "UK",
+                                    "CodeContext": "IATA",
+                                    "CompanyShortName": "Vistara"
+                                }
+                            }
+                        ],
+                        "Equipment": [
+                            {
+                                "$": {
+                                    "AirEquipType": "320"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "$": {
+                    "TotalFlightTime": "PT3H30M",
+                    "TotalMiles": "1196",
+                    "TotalTripTime": "PT4H30M",
+                    "FLSDepartureDateTime": "2023-01-25T12:45:00",
+                    "FLSDepartureTimeOffset": "+0530",
+                    "FLSDepartureCode": "BOM",
+                    "FLSDepartureName": "Chhatrapati Shivaji Maharaj Airport",
+                    "FLSArrivalDateTime": "2023-01-25T17:15:00",
+                    "FLSArrivalTimeOffset": "+0530",
+                    "FLSArrivalCode": "CCU",
+                    "FLSArrivalName": "Subhas Chandra Bose Airport",
+                    "FLSFlightType": "Connect",
+                    "FLSFlightLegs": "2",
+                    "FLSFlightDays": "..3....",
+                    "FLSDayIndicator": ""
+                },
+                "FlightLegDetails": [
+                    {
+                        "$": {
+                            "DepartureDateTime": "2023-01-25T12:45:00",
+                            "FLSDepartureTimeOffset": "+0530",
+                            "ArrivalDateTime": "2023-01-25T15:05:00",
+                            "FLSArrivalTimeOffset": "+0530",
+                            "FlightNumber": "2043",
+                            "JourneyDuration": "PT2H20M",
+                            "SequenceNumber": "1",
+                            "LegDistance": "902",
+                            "FLSMeals": "F",
+                            "FLSInflightServices": " ",
+                            "FLSUUID": "BOMPAT202301256E2043"
+                        },
+                        "DepartureAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "BOM",
+                                    "FLSLocationName": "Chhatrapati Shivaji Maharaj Airport",
+                                    "Terminal": "2",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "ArrivalAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "PAT",
+                                    "FLSLocationName": "Jayaprakash Narayan Airport",
+                                    "Terminal": " ",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "MarketingAirline": [
+                            {
+                                "$": {
+                                    "Code": "6E",
+                                    "CodeContext": "IATA",
+                                    "CompanyShortName": "IndiGo"
+                                }
+                            }
+                        ],
+                        "Equipment": [
+                            {
+                                "$": {
+                                    "AirEquipType": "320"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "$": {
+                            "DepartureDateTime": "2023-01-25T16:05:00",
+                            "FLSDepartureTimeOffset": "+0530",
+                            "ArrivalDateTime": "2023-01-25T17:15:00",
+                            "FLSArrivalTimeOffset": "+0530",
+                            "FlightNumber": "775",
+                            "JourneyDuration": "PT1H10M",
+                            "SequenceNumber": "2",
+                            "LegDistance": "294",
+                            "FLSMeals": "F",
+                            "FLSInflightServices": " ",
+                            "FLSUUID": "PATCCU202301256E775"
+                        },
+                        "DepartureAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "PAT",
+                                    "FLSLocationName": "Jayaprakash Narayan Airport",
+                                    "Terminal": " ",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "ArrivalAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "CCU",
+                                    "FLSLocationName": "Subhas Chandra Bose Airport",
+                                    "Terminal": " ",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "MarketingAirline": [
+                            {
+                                "$": {
+                                    "Code": "6E",
+                                    "CodeContext": "IATA",
+                                    "CompanyShortName": "IndiGo"
+                                }
+                            }
+                        ],
+                        "Equipment": [
+                            {
+                                "$": {
+                                    "AirEquipType": "320"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "$": {
+                    "TotalFlightTime": "PT2H35M",
+                    "TotalMiles": "1037",
+                    "TotalTripTime": "PT2H35M",
+                    "FLSDepartureDateTime": "2023-01-25T12:55:00",
+                    "FLSDepartureTimeOffset": "+0530",
+                    "FLSDepartureCode": "BOM",
+                    "FLSDepartureName": "Chhatrapati Shivaji Maharaj Airport",
+                    "FLSArrivalDateTime": "2023-01-25T15:30:00",
+                    "FLSArrivalTimeOffset": "+0530",
+                    "FLSArrivalCode": "CCU",
+                    "FLSArrivalName": "Subhas Chandra Bose Airport",
+                    "FLSFlightType": "NonStop",
+                    "FLSFlightLegs": "1",
+                    "FLSFlightDays": "..3....",
+                    "FLSDayIndicator": ""
+                },
+                "FlightLegDetails": [
+                    {
+                        "$": {
+                            "DepartureDateTime": "2023-01-25T12:55:00",
+                            "FLSDepartureTimeOffset": "+0530",
+                            "ArrivalDateTime": "2023-01-25T15:30:00",
+                            "FLSArrivalTimeOffset": "+0530",
+                            "FlightNumber": "5354",
+                            "JourneyDuration": "PT2H35M",
+                            "SequenceNumber": "1",
+                            "LegDistance": "1037",
+                            "FLSMeals": "F",
+                            "FLSInflightServices": " ",
+                            "FLSUUID": "BOMCCU202301256E5354"
+                        },
+                        "DepartureAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "BOM",
+                                    "FLSLocationName": "Chhatrapati Shivaji Maharaj Airport",
+                                    "Terminal": "1",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "ArrivalAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "CCU",
+                                    "FLSLocationName": "Subhas Chandra Bose Airport",
+                                    "Terminal": " ",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "MarketingAirline": [
+                            {
+                                "$": {
+                                    "Code": "6E",
+                                    "CodeContext": "IATA",
+                                    "CompanyShortName": "IndiGo"
+                                }
+                            }
+                        ],
+                        "Equipment": [
+                            {
+                                "$": {
+                                    "AirEquipType": "321"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "$": {
+                    "TotalFlightTime": "PT2H45M",
+                    "TotalMiles": "1037",
+                    "TotalTripTime": "PT2H45M",
+                    "FLSDepartureDateTime": "2023-01-25T14:05:00",
+                    "FLSDepartureTimeOffset": "+0530",
+                    "FLSDepartureCode": "BOM",
+                    "FLSDepartureName": "Chhatrapati Shivaji Maharaj Airport",
+                    "FLSArrivalDateTime": "2023-01-25T16:50:00",
+                    "FLSArrivalTimeOffset": "+0530",
+                    "FLSArrivalCode": "CCU",
+                    "FLSArrivalName": "Subhas Chandra Bose Airport",
+                    "FLSFlightType": "NonStop",
+                    "FLSFlightLegs": "1",
+                    "FLSFlightDays": "..3....",
+                    "FLSDayIndicator": ""
+                },
+                "FlightLegDetails": [
+                    {
+                        "$": {
+                            "DepartureDateTime": "2023-01-25T14:05:00",
+                            "FLSDepartureTimeOffset": "+0530",
+                            "ArrivalDateTime": "2023-01-25T16:50:00",
+                            "FLSArrivalTimeOffset": "+0530",
+                            "FlightNumber": "775",
+                            "JourneyDuration": "PT2H45M",
+                            "SequenceNumber": "1",
+                            "LegDistance": "1037",
+                            "FLSMeals": "M",
+                            "FLSInflightServices": " ",
+                            "FLSUUID": "BOMCCU20230125UK775"
+                        },
+                        "DepartureAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "BOM",
+                                    "FLSLocationName": "Chhatrapati Shivaji Maharaj Airport",
+                                    "Terminal": "2",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "ArrivalAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "CCU",
+                                    "FLSLocationName": "Subhas Chandra Bose Airport",
+                                    "Terminal": " ",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "MarketingAirline": [
+                            {
+                                "$": {
+                                    "Code": "UK",
+                                    "CodeContext": "IATA",
+                                    "CompanyShortName": "Vistara"
+                                }
+                            }
+                        ],
+                        "Equipment": [
+                            {
+                                "$": {
+                                    "AirEquipType": "73H"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "$": {
+                    "TotalFlightTime": "PT4H20M",
+                    "TotalMiles": "1280",
+                    "TotalTripTime": "PT4H45M",
+                    "FLSDepartureDateTime": "2023-01-25T15:10:00",
+                    "FLSDepartureTimeOffset": "+0530",
+                    "FLSDepartureCode": "BOM",
+                    "FLSDepartureName": "Chhatrapati Shivaji Maharaj Airport",
+                    "FLSArrivalDateTime": "2023-01-25T19:55:00",
+                    "FLSArrivalTimeOffset": "+0530",
+                    "FLSArrivalCode": "CCU",
+                    "FLSArrivalName": "Subhas Chandra Bose Airport",
+                    "FLSFlightType": "Connect",
+                    "FLSFlightLegs": "2",
+                    "FLSFlightDays": "..3....",
+                    "FLSDayIndicator": ""
+                },
+                "FlightLegDetails": [
+                    {
+                        "$": {
+                            "DepartureDateTime": "2023-01-25T15:10:00",
+                            "FLSDepartureTimeOffset": "+0530",
+                            "ArrivalDateTime": "2023-01-25T17:45:00",
+                            "FLSArrivalTimeOffset": "+0530",
+                            "FlightNumber": "544",
+                            "JourneyDuration": "PT2H35M",
+                            "SequenceNumber": "1",
+                            "LegDistance": "857",
+                            "FLSMeals": "F",
+                            "FLSInflightServices": " ",
+                            "FLSUUID": "BOMGOP202301256E544"
+                        },
+                        "DepartureAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "BOM",
+                                    "FLSLocationName": "Chhatrapati Shivaji Maharaj Airport",
+                                    "Terminal": "2",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "ArrivalAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "GOP",
+                                    "FLSLocationName": "Gorakhpur Airport",
+                                    "Terminal": " ",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "MarketingAirline": [
+                            {
+                                "$": {
+                                    "Code": "6E",
+                                    "CodeContext": "IATA",
+                                    "CompanyShortName": "IndiGo"
+                                }
+                            }
+                        ],
+                        "Equipment": [
+                            {
+                                "$": {
+                                    "AirEquipType": "320"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "$": {
+                            "DepartureDateTime": "2023-01-25T18:10:00",
+                            "FLSDepartureTimeOffset": "+0530",
+                            "ArrivalDateTime": "2023-01-25T19:55:00",
+                            "FLSArrivalTimeOffset": "+0530",
+                            "FlightNumber": "7306",
+                            "JourneyDuration": "PT1H45M",
+                            "SequenceNumber": "2",
+                            "LegDistance": "423",
+                            "FLSMeals": "F",
+                            "FLSInflightServices": " ",
+                            "FLSUUID": "GOPCCU202301256E7306"
+                        },
+                        "DepartureAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "GOP",
+                                    "FLSLocationName": "Gorakhpur Airport",
+                                    "Terminal": " ",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "ArrivalAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "CCU",
+                                    "FLSLocationName": "Subhas Chandra Bose Airport",
+                                    "Terminal": " ",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "MarketingAirline": [
+                            {
+                                "$": {
+                                    "Code": "6E",
+                                    "CodeContext": "IATA",
+                                    "CompanyShortName": "IndiGo"
+                                }
+                            }
+                        ],
+                        "Equipment": [
+                            {
+                                "$": {
+                                    "AirEquipType": "ATR"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "$": {
+                    "TotalFlightTime": "PT4H15M",
+                    "TotalMiles": "1526",
+                    "TotalTripTime": "PT5H50M",
+                    "FLSDepartureDateTime": "2023-01-25T16:35:00",
+                    "FLSDepartureTimeOffset": "+0530",
+                    "FLSDepartureCode": "BOM",
+                    "FLSDepartureName": "Chhatrapati Shivaji Maharaj Airport",
+                    "FLSArrivalDateTime": "2023-01-25T22:25:00",
+                    "FLSArrivalTimeOffset": "+0530",
+                    "FLSArrivalCode": "CCU",
+                    "FLSArrivalName": "Subhas Chandra Bose Airport",
+                    "FLSFlightType": "Connect",
+                    "FLSFlightLegs": "2",
+                    "FLSFlightDays": "..3....",
+                    "FLSDayIndicator": ""
+                },
+                "FlightLegDetails": [
+                    {
+                        "$": {
+                            "DepartureDateTime": "2023-01-25T16:35:00",
+                            "FLSDepartureTimeOffset": "+0530",
+                            "ArrivalDateTime": "2023-01-25T18:40:00",
+                            "FLSArrivalTimeOffset": "+0530",
+                            "FlightNumber": "687",
+                            "JourneyDuration": "PT2H05M",
+                            "SequenceNumber": "1",
+                            "LegDistance": "709",
+                            "FLSMeals": "S",
+                            "FLSInflightServices": "  1/  9",
+                            "FLSUUID": "BOMDEL20230125AI687"
+                        },
+                        "DepartureAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "BOM",
+                                    "FLSLocationName": "Chhatrapati Shivaji Maharaj Airport",
+                                    "Terminal": "2",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "ArrivalAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "DEL",
+                                    "FLSLocationName": "Indira Gandhi International Airport",
+                                    "Terminal": "3",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "MarketingAirline": [
+                            {
+                                "$": {
+                                    "Code": "AI",
+                                    "CodeContext": "IATA",
+                                    "CompanyShortName": "Air India"
+                                }
+                            }
+                        ],
+                        "Equipment": [
+                            {
+                                "$": {
+                                    "AirEquipType": "788"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "$": {
+                            "DepartureDateTime": "2023-01-25T20:15:00",
+                            "FLSDepartureTimeOffset": "+0530",
+                            "ArrivalDateTime": "2023-01-25T22:25:00",
+                            "FLSArrivalTimeOffset": "+0530",
+                            "FlightNumber": "762",
+                            "JourneyDuration": "PT2H10M",
+                            "SequenceNumber": "2",
+                            "LegDistance": "817",
+                            "FLSMeals": "S",
+                            "FLSInflightServices": "  1/  9",
+                            "FLSUUID": "DELCCU20230125AI762"
+                        },
+                        "DepartureAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "DEL",
+                                    "FLSLocationName": "Indira Gandhi International Airport",
+                                    "Terminal": "3",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "ArrivalAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "CCU",
+                                    "FLSLocationName": "Subhas Chandra Bose Airport",
+                                    "Terminal": " ",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "MarketingAirline": [
+                            {
+                                "$": {
+                                    "Code": "AI",
+                                    "CodeContext": "IATA",
+                                    "CompanyShortName": "Air India"
+                                }
+                            }
+                        ],
+                        "Equipment": [
+                            {
+                                "$": {
+                                    "AirEquipType": "321"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "$": {
+                    "TotalFlightTime": "PT3H45M",
+                    "TotalMiles": "1285",
+                    "TotalTripTime": "PT5H20M",
+                    "FLSDepartureDateTime": "2023-01-25T16:45:00",
+                    "FLSDepartureTimeOffset": "+0530",
+                    "FLSDepartureCode": "BOM",
+                    "FLSDepartureName": "Chhatrapati Shivaji Maharaj Airport",
+                    "FLSArrivalDateTime": "2023-01-25T22:05:00",
+                    "FLSArrivalTimeOffset": "+0530",
+                    "FLSArrivalCode": "CCU",
+                    "FLSArrivalName": "Subhas Chandra Bose Airport",
+                    "FLSFlightType": "Connect",
+                    "FLSFlightLegs": "2",
+                    "FLSFlightDays": "..3....",
+                    "FLSDayIndicator": ""
+                },
+                "FlightLegDetails": [
+                    {
+                        "$": {
+                            "DepartureDateTime": "2023-01-25T16:45:00",
+                            "FLSDepartureTimeOffset": "+0530",
+                            "ArrivalDateTime": "2023-01-25T18:05:00",
+                            "FLSArrivalTimeOffset": "+0530",
+                            "FlightNumber": "6177",
+                            "JourneyDuration": "PT1H20M",
+                            "SequenceNumber": "1",
+                            "LegDistance": "276",
+                            "FLSMeals": "F",
+                            "FLSInflightServices": " ",
+                            "FLSUUID": "BOMAMD202301256E6177"
+                        },
+                        "DepartureAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "BOM",
+                                    "FLSLocationName": "Chhatrapati Shivaji Maharaj Airport",
+                                    "Terminal": "2",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "ArrivalAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "AMD",
+                                    "FLSLocationName": "Sardar VallabhBhai Patel Airport",
+                                    "Terminal": "1",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "MarketingAirline": [
+                            {
+                                "$": {
+                                    "Code": "6E",
+                                    "CodeContext": "IATA",
+                                    "CompanyShortName": "IndiGo"
+                                }
+                            }
+                        ],
+                        "Equipment": [
+                            {
+                                "$": {
+                                    "AirEquipType": "320"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "$": {
+                            "DepartureDateTime": "2023-01-25T19:40:00",
+                            "FLSDepartureTimeOffset": "+0530",
+                            "ArrivalDateTime": "2023-01-25T22:05:00",
+                            "FLSArrivalTimeOffset": "+0530",
+                            "FlightNumber": "6556",
+                            "JourneyDuration": "PT2H25M",
+                            "SequenceNumber": "2",
+                            "LegDistance": "1009",
+                            "FLSMeals": "F",
+                            "FLSInflightServices": " ",
+                            "FLSUUID": "AMDCCU202301256E6556"
+                        },
+                        "DepartureAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "AMD",
+                                    "FLSLocationName": "Sardar VallabhBhai Patel Airport",
+                                    "Terminal": "1",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "ArrivalAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "CCU",
+                                    "FLSLocationName": "Subhas Chandra Bose Airport",
+                                    "Terminal": " ",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "MarketingAirline": [
+                            {
+                                "$": {
+                                    "Code": "6E",
+                                    "CodeContext": "IATA",
+                                    "CompanyShortName": "IndiGo"
+                                }
+                            }
+                        ],
+                        "Equipment": [
+                            {
+                                "$": {
+                                    "AirEquipType": "320"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "$": {
+                    "TotalFlightTime": "PT2H30M",
+                    "TotalMiles": "1037",
+                    "TotalTripTime": "PT2H30M",
+                    "FLSDepartureDateTime": "2023-01-25T17:20:00",
+                    "FLSDepartureTimeOffset": "+0530",
+                    "FLSDepartureCode": "BOM",
+                    "FLSDepartureName": "Chhatrapati Shivaji Maharaj Airport",
+                    "FLSArrivalDateTime": "2023-01-25T19:50:00",
+                    "FLSArrivalTimeOffset": "+0530",
+                    "FLSArrivalCode": "CCU",
+                    "FLSArrivalName": "Subhas Chandra Bose Airport",
+                    "FLSFlightType": "NonStop",
+                    "FLSFlightLegs": "1",
+                    "FLSFlightDays": "..3....",
+                    "FLSDayIndicator": ""
+                },
+                "FlightLegDetails": [
+                    {
+                        "$": {
+                            "DepartureDateTime": "2023-01-25T17:20:00",
+                            "FLSDepartureTimeOffset": "+0530",
+                            "ArrivalDateTime": "2023-01-25T19:50:00",
+                            "FLSArrivalTimeOffset": "+0530",
+                            "FlightNumber": "773",
+                            "JourneyDuration": "PT2H30M",
+                            "SequenceNumber": "1",
+                            "LegDistance": "1037",
+                            "FLSMeals": "M",
+                            "FLSInflightServices": " ",
+                            "FLSUUID": "BOMCCU20230125UK773"
+                        },
+                        "DepartureAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "BOM",
+                                    "FLSLocationName": "Chhatrapati Shivaji Maharaj Airport",
+                                    "Terminal": "2",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "ArrivalAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "CCU",
+                                    "FLSLocationName": "Subhas Chandra Bose Airport",
+                                    "Terminal": " ",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "MarketingAirline": [
+                            {
+                                "$": {
+                                    "Code": "UK",
+                                    "CodeContext": "IATA",
+                                    "CompanyShortName": "Vistara"
+                                }
+                            }
+                        ],
+                        "Equipment": [
+                            {
+                                "$": {
+                                    "AirEquipType": "73H"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "$": {
+                    "TotalFlightTime": "PT3H40M",
+                    "TotalMiles": "1138",
+                    "TotalTripTime": "PT5H10M",
+                    "FLSDepartureDateTime": "2023-01-25T17:20:00",
+                    "FLSDepartureTimeOffset": "+0530",
+                    "FLSDepartureCode": "BOM",
+                    "FLSDepartureName": "Chhatrapati Shivaji Maharaj Airport",
+                    "FLSArrivalDateTime": "2023-01-25T22:30:00",
+                    "FLSArrivalTimeOffset": "+0530",
+                    "FLSArrivalCode": "CCU",
+                    "FLSArrivalName": "Subhas Chandra Bose Airport",
+                    "FLSFlightType": "Connect",
+                    "FLSFlightLegs": "2",
+                    "FLSFlightDays": "..3....",
+                    "FLSDayIndicator": ""
+                },
+                "FlightLegDetails": [
+                    {
+                        "$": {
+                            "DepartureDateTime": "2023-01-25T17:20:00",
+                            "FLSDepartureTimeOffset": "+0530",
+                            "ArrivalDateTime": "2023-01-25T18:55:00",
+                            "FLSArrivalTimeOffset": "+0530",
+                            "FlightNumber": "5388",
+                            "JourneyDuration": "PT1H35M",
+                            "SequenceNumber": "1",
+                            "LegDistance": "386",
+                            "FLSMeals": "F",
+                            "FLSInflightServices": " ",
+                            "FLSUUID": "BOMHYD202301256E5388"
+                        },
+                        "DepartureAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "BOM",
+                                    "FLSLocationName": "Chhatrapati Shivaji Maharaj Airport",
+                                    "Terminal": "1",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "ArrivalAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "HYD",
+                                    "FLSLocationName": "Rajiv Gandhi International Airport",
+                                    "Terminal": " ",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "MarketingAirline": [
+                            {
+                                "$": {
+                                    "Code": "6E",
+                                    "CodeContext": "IATA",
+                                    "CompanyShortName": "IndiGo"
+                                }
+                            }
+                        ],
+                        "Equipment": [
+                            {
+                                "$": {
+                                    "AirEquipType": "320"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "$": {
+                            "DepartureDateTime": "2023-01-25T20:25:00",
+                            "FLSDepartureTimeOffset": "+0530",
+                            "ArrivalDateTime": "2023-01-25T22:30:00",
+                            "FLSArrivalTimeOffset": "+0530",
+                            "FlightNumber": "944",
+                            "JourneyDuration": "PT2H05M",
+                            "SequenceNumber": "2",
+                            "LegDistance": "752",
+                            "FLSMeals": "F",
+                            "FLSInflightServices": " ",
+                            "FLSUUID": "HYDCCU202301256E944"
+                        },
+                        "DepartureAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "HYD",
+                                    "FLSLocationName": "Rajiv Gandhi International Airport",
+                                    "Terminal": " ",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "ArrivalAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "CCU",
+                                    "FLSLocationName": "Subhas Chandra Bose Airport",
+                                    "Terminal": " ",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "MarketingAirline": [
+                            {
+                                "$": {
+                                    "Code": "6E",
+                                    "CodeContext": "IATA",
+                                    "CompanyShortName": "IndiGo"
+                                }
+                            }
+                        ],
+                        "Equipment": [
+                            {
+                                "$": {
+                                    "AirEquipType": "321"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "$": {
+                    "TotalFlightTime": "PT4H00M",
+                    "TotalMiles": "1526",
+                    "TotalTripTime": "PT4H45M",
+                    "FLSDepartureDateTime": "2023-01-25T17:35:00",
+                    "FLSDepartureTimeOffset": "+0530",
+                    "FLSDepartureCode": "BOM",
+                    "FLSDepartureName": "Chhatrapati Shivaji Maharaj Airport",
+                    "FLSArrivalDateTime": "2023-01-25T22:20:00",
+                    "FLSArrivalTimeOffset": "+0530",
+                    "FLSArrivalCode": "CCU",
+                    "FLSArrivalName": "Subhas Chandra Bose Airport",
+                    "FLSFlightType": "Connect",
+                    "FLSFlightLegs": "2",
+                    "FLSFlightDays": "..3....",
+                    "FLSDayIndicator": ""
+                },
+                "FlightLegDetails": [
+                    {
+                        "$": {
+                            "DepartureDateTime": "2023-01-25T17:35:00",
+                            "FLSDepartureTimeOffset": "+0530",
+                            "ArrivalDateTime": "2023-01-25T19:45:00",
+                            "FLSArrivalTimeOffset": "+0530",
+                            "FlightNumber": "910",
+                            "JourneyDuration": "PT2H10M",
+                            "SequenceNumber": "1",
+                            "LegDistance": "709",
+                            "FLSMeals": "M",
+                            "FLSInflightServices": " ",
+                            "FLSUUID": "BOMDEL20230125UK910"
+                        },
+                        "DepartureAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "BOM",
+                                    "FLSLocationName": "Chhatrapati Shivaji Maharaj Airport",
+                                    "Terminal": "2",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "ArrivalAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "DEL",
+                                    "FLSLocationName": "Indira Gandhi International Airport",
+                                    "Terminal": "3",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "MarketingAirline": [
+                            {
+                                "$": {
+                                    "Code": "UK",
+                                    "CodeContext": "IATA",
+                                    "CompanyShortName": "Vistara"
+                                }
+                            }
+                        ],
+                        "Equipment": [
+                            {
+                                "$": {
+                                    "AirEquipType": "320"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "$": {
+                            "DepartureDateTime": "2023-01-25T20:30:00",
+                            "FLSDepartureTimeOffset": "+0530",
+                            "ArrivalDateTime": "2023-01-25T22:20:00",
+                            "FLSArrivalTimeOffset": "+0530",
+                            "FlightNumber": "727",
+                            "JourneyDuration": "PT1H50M",
+                            "SequenceNumber": "2",
+                            "LegDistance": "817",
+                            "FLSMeals": "M",
+                            "FLSInflightServices": " ",
+                            "FLSUUID": "DELCCU20230125UK727"
+                        },
+                        "DepartureAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "DEL",
+                                    "FLSLocationName": "Indira Gandhi International Airport",
+                                    "Terminal": "3",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "ArrivalAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "CCU",
+                                    "FLSLocationName": "Subhas Chandra Bose Airport",
+                                    "Terminal": " ",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "MarketingAirline": [
+                            {
+                                "$": {
+                                    "Code": "UK",
+                                    "CodeContext": "IATA",
+                                    "CompanyShortName": "Vistara"
+                                }
+                            }
+                        ],
+                        "Equipment": [
+                            {
+                                "$": {
+                                    "AirEquipType": "320"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "$": {
+                    "TotalFlightTime": "PT2H40M",
+                    "TotalMiles": "1037",
+                    "TotalTripTime": "PT2H40M",
+                    "FLSDepartureDateTime": "2023-01-25T17:55:00",
+                    "FLSDepartureTimeOffset": "+0530",
+                    "FLSDepartureCode": "BOM",
+                    "FLSDepartureName": "Chhatrapati Shivaji Maharaj Airport",
+                    "FLSArrivalDateTime": "2023-01-25T20:35:00",
+                    "FLSArrivalTimeOffset": "+0530",
+                    "FLSArrivalCode": "CCU",
+                    "FLSArrivalName": "Subhas Chandra Bose Airport",
+                    "FLSFlightType": "NonStop",
+                    "FLSFlightLegs": "1",
+                    "FLSFlightDays": "..3....",
+                    "FLSDayIndicator": ""
+                },
+                "FlightLegDetails": [
+                    {
+                        "$": {
+                            "DepartureDateTime": "2023-01-25T17:55:00",
+                            "FLSDepartureTimeOffset": "+0530",
+                            "ArrivalDateTime": "2023-01-25T20:35:00",
+                            "FLSArrivalTimeOffset": "+0530",
+                            "FlightNumber": "395",
+                            "JourneyDuration": "PT2H40M",
+                            "SequenceNumber": "1",
+                            "LegDistance": "1037",
+                            "FLSMeals": "F",
+                            "FLSInflightServices": " ",
+                            "FLSUUID": "BOMCCU202301256E395"
+                        },
+                        "DepartureAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "BOM",
+                                    "FLSLocationName": "Chhatrapati Shivaji Maharaj Airport",
+                                    "Terminal": "2",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "ArrivalAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "CCU",
+                                    "FLSLocationName": "Subhas Chandra Bose Airport",
+                                    "Terminal": " ",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "MarketingAirline": [
+                            {
+                                "$": {
+                                    "Code": "6E",
+                                    "CodeContext": "IATA",
+                                    "CompanyShortName": "IndiGo"
+                                }
+                            }
+                        ],
+                        "Equipment": [
+                            {
+                                "$": {
+                                    "AirEquipType": "320"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "$": {
+                    "TotalFlightTime": "PT4H20M",
+                    "TotalMiles": "1481",
+                    "TotalTripTime": "PT5H35M",
+                    "FLSDepartureDateTime": "2023-01-25T18:50:00",
+                    "FLSDepartureTimeOffset": "+0530",
+                    "FLSDepartureCode": "BOM",
+                    "FLSDepartureName": "Chhatrapati Shivaji Maharaj Airport",
+                    "FLSArrivalDateTime": "2023-01-26T00:25:00",
+                    "FLSArrivalTimeOffset": "+0530",
+                    "FLSArrivalCode": "CCU",
+                    "FLSArrivalName": "Subhas Chandra Bose Airport",
+                    "FLSFlightType": "Connect",
+                    "FLSFlightLegs": "2",
+                    "FLSFlightDays": "..3....",
+                    "FLSDayIndicator": "+1"
+                },
+                "FlightLegDetails": [
+                    {
+                        "$": {
+                            "DepartureDateTime": "2023-01-25T18:50:00",
+                            "FLSDepartureTimeOffset": "+0530",
+                            "ArrivalDateTime": "2023-01-25T20:45:00",
+                            "FLSArrivalTimeOffset": "+0530",
+                            "FlightNumber": "5252",
+                            "JourneyDuration": "PT1H55M",
+                            "SequenceNumber": "1",
+                            "LegDistance": "519",
+                            "FLSMeals": "F",
+                            "FLSInflightServices": " ",
+                            "FLSUUID": "BOMBLR202301256E5252"
+                        },
+                        "DepartureAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "BOM",
+                                    "FLSLocationName": "Chhatrapati Shivaji Maharaj Airport",
+                                    "Terminal": "1",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "ArrivalAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "BLR",
+                                    "FLSLocationName": "Kempegowda International Airport",
+                                    "Terminal": " ",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "MarketingAirline": [
+                            {
+                                "$": {
+                                    "Code": "6E",
+                                    "CodeContext": "IATA",
+                                    "CompanyShortName": "IndiGo"
+                                }
+                            }
+                        ],
+                        "Equipment": [
+                            {
+                                "$": {
+                                    "AirEquipType": "321"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "$": {
+                            "DepartureDateTime": "2023-01-25T22:00:00",
+                            "FLSDepartureTimeOffset": "+0530",
+                            "ArrivalDateTime": "2023-01-26T00:25:00",
+                            "FLSArrivalTimeOffset": "+0530",
+                            "DateChangeNbr": "+1",
+                            "FlightNumber": "975",
+                            "JourneyDuration": "PT2H25M",
+                            "SequenceNumber": "2",
+                            "LegDistance": "962",
+                            "FLSMeals": "F",
+                            "FLSInflightServices": " ",
+                            "FLSUUID": "BLRCCU202301256E975"
+                        },
+                        "DepartureAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "BLR",
+                                    "FLSLocationName": "Kempegowda International Airport",
+                                    "Terminal": " ",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "ArrivalAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "CCU",
+                                    "FLSLocationName": "Subhas Chandra Bose Airport",
+                                    "Terminal": " ",
+                                    "FLSDayIndicator": "+1"
+                                }
+                            }
+                        ],
+                        "MarketingAirline": [
+                            {
+                                "$": {
+                                    "Code": "6E",
+                                    "CodeContext": "IATA",
+                                    "CompanyShortName": "IndiGo"
+                                }
+                            }
+                        ],
+                        "Equipment": [
+                            {
+                                "$": {
+                                    "AirEquipType": "321"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "$": {
+                    "TotalFlightTime": "PT2H30M",
+                    "TotalMiles": "1037",
+                    "TotalTripTime": "PT2H30M",
+                    "FLSDepartureDateTime": "2023-01-25T19:00:00",
+                    "FLSDepartureTimeOffset": "+0530",
+                    "FLSDepartureCode": "BOM",
+                    "FLSDepartureName": "Chhatrapati Shivaji Maharaj Airport",
+                    "FLSArrivalDateTime": "2023-01-25T21:30:00",
+                    "FLSArrivalTimeOffset": "+0530",
+                    "FLSArrivalCode": "CCU",
+                    "FLSArrivalName": "Subhas Chandra Bose Airport",
+                    "FLSFlightType": "NonStop",
+                    "FLSFlightLegs": "1",
+                    "FLSFlightDays": "..3....",
+                    "FLSDayIndicator": ""
+                },
+                "FlightLegDetails": [
+                    {
+                        "$": {
+                            "DepartureDateTime": "2023-01-25T19:00:00",
+                            "FLSDepartureTimeOffset": "+0530",
+                            "ArrivalDateTime": "2023-01-25T21:30:00",
+                            "FLSArrivalTimeOffset": "+0530",
+                            "FlightNumber": "467",
+                            "JourneyDuration": "PT2H30M",
+                            "SequenceNumber": "1",
+                            "LegDistance": "1037",
+                            "FLSMeals": "",
+                            "FLSInflightServices": " ",
+                            "FLSUUID": "BOMCCU20230125SG467"
+                        },
+                        "DepartureAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "BOM",
+                                    "FLSLocationName": "Chhatrapati Shivaji Maharaj Airport",
+                                    "Terminal": "2",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "ArrivalAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "CCU",
+                                    "FLSLocationName": "Subhas Chandra Bose Airport",
+                                    "Terminal": " ",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "MarketingAirline": [
+                            {
+                                "$": {
+                                    "Code": "SG",
+                                    "CodeContext": "IATA",
+                                    "CompanyShortName": "SpiceJet"
+                                }
+                            }
+                        ],
+                        "Equipment": [
+                            {
+                                "$": {
+                                    "AirEquipType": "738"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "$": {
+                    "TotalFlightTime": "PT2H35M",
+                    "TotalMiles": "1037",
+                    "TotalTripTime": "PT2H35M",
+                    "FLSDepartureDateTime": "2023-01-25T19:25:00",
+                    "FLSDepartureTimeOffset": "+0530",
+                    "FLSDepartureCode": "BOM",
+                    "FLSDepartureName": "Chhatrapati Shivaji Maharaj Airport",
+                    "FLSArrivalDateTime": "2023-01-25T22:00:00",
+                    "FLSArrivalTimeOffset": "+0530",
+                    "FLSArrivalCode": "CCU",
+                    "FLSArrivalName": "Subhas Chandra Bose Airport",
+                    "FLSFlightType": "NonStop",
+                    "FLSFlightLegs": "1",
+                    "FLSFlightDays": "..3....",
+                    "FLSDayIndicator": ""
+                },
+                "FlightLegDetails": [
+                    {
+                        "$": {
+                            "DepartureDateTime": "2023-01-25T19:25:00",
+                            "FLSDepartureTimeOffset": "+0530",
+                            "ArrivalDateTime": "2023-01-25T22:00:00",
+                            "FLSArrivalTimeOffset": "+0530",
+                            "FlightNumber": "5311",
+                            "JourneyDuration": "PT2H35M",
+                            "SequenceNumber": "1",
+                            "LegDistance": "1037",
+                            "FLSMeals": "F",
+                            "FLSInflightServices": " ",
+                            "FLSUUID": "BOMCCU202301256E5311"
+                        },
+                        "DepartureAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "BOM",
+                                    "FLSLocationName": "Chhatrapati Shivaji Maharaj Airport",
+                                    "Terminal": "1",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "ArrivalAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "CCU",
+                                    "FLSLocationName": "Subhas Chandra Bose Airport",
+                                    "Terminal": " ",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "MarketingAirline": [
+                            {
+                                "$": {
+                                    "Code": "6E",
+                                    "CodeContext": "IATA",
+                                    "CompanyShortName": "IndiGo"
+                                }
+                            }
+                        ],
+                        "Equipment": [
+                            {
+                                "$": {
+                                    "AirEquipType": "320"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "$": {
+                    "TotalFlightTime": "PT4H30M",
+                    "TotalMiles": "1481",
+                    "TotalTripTime": "PT5H30M",
+                    "FLSDepartureDateTime": "2023-01-25T19:40:00",
+                    "FLSDepartureTimeOffset": "+0530",
+                    "FLSDepartureCode": "BOM",
+                    "FLSDepartureName": "Chhatrapati Shivaji Maharaj Airport",
+                    "FLSArrivalDateTime": "2023-01-26T01:10:00",
+                    "FLSArrivalTimeOffset": "+0530",
+                    "FLSArrivalCode": "CCU",
+                    "FLSArrivalName": "Subhas Chandra Bose Airport",
+                    "FLSFlightType": "Connect",
+                    "FLSFlightLegs": "2",
+                    "FLSFlightDays": "..3....",
+                    "FLSDayIndicator": "+1"
+                },
+                "FlightLegDetails": [
+                    {
+                        "$": {
+                            "DepartureDateTime": "2023-01-25T19:40:00",
+                            "FLSDepartureTimeOffset": "+0530",
+                            "ArrivalDateTime": "2023-01-25T21:40:00",
+                            "FLSArrivalTimeOffset": "+0530",
+                            "FlightNumber": "1569",
+                            "JourneyDuration": "PT2H00M",
+                            "SequenceNumber": "1",
+                            "LegDistance": "519",
+                            "FLSMeals": "",
+                            "FLSInflightServices": " ",
+                            "FLSUUID": "BOMBLR20230125I51569"
+                        },
+                        "DepartureAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "BOM",
+                                    "FLSLocationName": "Chhatrapati Shivaji Maharaj Airport",
+                                    "Terminal": "1",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "ArrivalAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "BLR",
+                                    "FLSLocationName": "Kempegowda International Airport",
+                                    "Terminal": " ",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "MarketingAirline": [
+                            {
+                                "$": {
+                                    "Code": "I5",
+                                    "CodeContext": "IATA",
+                                    "CompanyShortName": "AirAsia (India)"
+                                }
+                            }
+                        ],
+                        "Equipment": [
+                            {
+                                "$": {
+                                    "AirEquipType": "320"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "$": {
+                            "DepartureDateTime": "2023-01-25T22:40:00",
+                            "FLSDepartureTimeOffset": "+0530",
+                            "ArrivalDateTime": "2023-01-26T01:10:00",
+                            "FLSArrivalTimeOffset": "+0530",
+                            "DateChangeNbr": "+1",
+                            "FlightNumber": "992",
+                            "JourneyDuration": "PT2H30M",
+                            "SequenceNumber": "2",
+                            "LegDistance": "962",
+                            "FLSMeals": "",
+                            "FLSInflightServices": " ",
+                            "FLSUUID": "BLRCCU20230125I5992"
+                        },
+                        "DepartureAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "BLR",
+                                    "FLSLocationName": "Kempegowda International Airport",
+                                    "Terminal": " ",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "ArrivalAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "CCU",
+                                    "FLSLocationName": "Subhas Chandra Bose Airport",
+                                    "Terminal": " ",
+                                    "FLSDayIndicator": "+1"
+                                }
+                            }
+                        ],
+                        "MarketingAirline": [
+                            {
+                                "$": {
+                                    "Code": "I5",
+                                    "CodeContext": "IATA",
+                                    "CompanyShortName": "AirAsia (India)"
+                                }
+                            }
+                        ],
+                        "Equipment": [
+                            {
+                                "$": {
+                                    "AirEquipType": "320"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "$": {
+                    "TotalFlightTime": "PT2H45M",
+                    "TotalMiles": "1037",
+                    "TotalTripTime": "PT2H45M",
+                    "FLSDepartureDateTime": "2023-01-25T20:15:00",
+                    "FLSDepartureTimeOffset": "+0530",
+                    "FLSDepartureCode": "BOM",
+                    "FLSDepartureName": "Chhatrapati Shivaji Maharaj Airport",
+                    "FLSArrivalDateTime": "2023-01-25T23:00:00",
+                    "FLSArrivalTimeOffset": "+0530",
+                    "FLSArrivalCode": "CCU",
+                    "FLSArrivalName": "Subhas Chandra Bose Airport",
+                    "FLSFlightType": "NonStop",
+                    "FLSFlightLegs": "1",
+                    "FLSFlightDays": "..3....",
+                    "FLSDayIndicator": ""
+                },
+                "FlightLegDetails": [
+                    {
+                        "$": {
+                            "DepartureDateTime": "2023-01-25T20:15:00",
+                            "FLSDepartureTimeOffset": "+0530",
+                            "ArrivalDateTime": "2023-01-25T23:00:00",
+                            "FLSArrivalTimeOffset": "+0530",
+                            "FlightNumber": "776",
+                            "JourneyDuration": "PT2H45M",
+                            "SequenceNumber": "1",
+                            "LegDistance": "1037",
+                            "FLSMeals": "",
+                            "FLSInflightServices": " ",
+                            "FLSUUID": "BOMCCU20230125AI776"
+                        },
+                        "DepartureAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "BOM",
+                                    "FLSLocationName": "Chhatrapati Shivaji Maharaj Airport",
+                                    "Terminal": "2",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "ArrivalAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "CCU",
+                                    "FLSLocationName": "Subhas Chandra Bose Airport",
+                                    "Terminal": " ",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "MarketingAirline": [
+                            {
+                                "$": {
+                                    "Code": "AI",
+                                    "CodeContext": "IATA",
+                                    "CompanyShortName": "Air India"
+                                }
+                            }
+                        ],
+                        "Equipment": [
+                            {
+                                "$": {
+                                    "AirEquipType": "319"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "$": {
+                    "TotalFlightTime": "PT4H05M",
+                    "TotalMiles": "1481",
+                    "TotalTripTime": "PT5H20M",
+                    "FLSDepartureDateTime": "2023-01-25T20:35:00",
+                    "FLSDepartureTimeOffset": "+0530",
+                    "FLSDepartureCode": "BOM",
+                    "FLSDepartureName": "Chhatrapati Shivaji Maharaj Airport",
+                    "FLSArrivalDateTime": "2023-01-26T01:55:00",
+                    "FLSArrivalTimeOffset": "+0530",
+                    "FLSArrivalCode": "CCU",
+                    "FLSArrivalName": "Subhas Chandra Bose Airport",
+                    "FLSFlightType": "Connect",
+                    "FLSFlightLegs": "2",
+                    "FLSFlightDays": "..3....",
+                    "FLSDayIndicator": "+1"
+                },
+                "FlightLegDetails": [
+                    {
+                        "$": {
+                            "DepartureDateTime": "2023-01-25T20:35:00",
+                            "FLSDepartureTimeOffset": "+0530",
+                            "ArrivalDateTime": "2023-01-25T22:25:00",
+                            "FLSArrivalTimeOffset": "+0530",
+                            "FlightNumber": "5256",
+                            "JourneyDuration": "PT1H50M",
+                            "SequenceNumber": "1",
+                            "LegDistance": "519",
+                            "FLSMeals": "F",
+                            "FLSInflightServices": " ",
+                            "FLSUUID": "BOMBLR202301256E5256"
+                        },
+                        "DepartureAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "BOM",
+                                    "FLSLocationName": "Chhatrapati Shivaji Maharaj Airport",
+                                    "Terminal": "1",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "ArrivalAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "BLR",
+                                    "FLSLocationName": "Kempegowda International Airport",
+                                    "Terminal": " ",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "MarketingAirline": [
+                            {
+                                "$": {
+                                    "Code": "6E",
+                                    "CodeContext": "IATA",
+                                    "CompanyShortName": "IndiGo"
+                                }
+                            }
+                        ],
+                        "Equipment": [
+                            {
+                                "$": {
+                                    "AirEquipType": "320"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "$": {
+                            "DepartureDateTime": "2023-01-25T23:40:00",
+                            "FLSDepartureTimeOffset": "+0530",
+                            "ArrivalDateTime": "2023-01-26T01:55:00",
+                            "FLSArrivalTimeOffset": "+0530",
+                            "DateChangeNbr": "+1",
+                            "FlightNumber": "952",
+                            "JourneyDuration": "PT2H15M",
+                            "SequenceNumber": "2",
+                            "LegDistance": "962",
+                            "FLSMeals": "F",
+                            "FLSInflightServices": " ",
+                            "FLSUUID": "BLRCCU202301256E952"
+                        },
+                        "DepartureAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "BLR",
+                                    "FLSLocationName": "Kempegowda International Airport",
+                                    "Terminal": " ",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "ArrivalAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "CCU",
+                                    "FLSLocationName": "Subhas Chandra Bose Airport",
+                                    "Terminal": " ",
+                                    "FLSDayIndicator": "+1"
+                                }
+                            }
+                        ],
+                        "MarketingAirline": [
+                            {
+                                "$": {
+                                    "Code": "6E",
+                                    "CodeContext": "IATA",
+                                    "CompanyShortName": "IndiGo"
+                                }
+                            }
+                        ],
+                        "Equipment": [
+                            {
+                                "$": {
+                                    "AirEquipType": "321"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "$": {
+                    "TotalFlightTime": "PT2H45M",
+                    "TotalMiles": "1037",
+                    "TotalTripTime": "PT2H45M",
+                    "FLSDepartureDateTime": "2023-01-25T21:05:00",
+                    "FLSDepartureTimeOffset": "+0530",
+                    "FLSDepartureCode": "BOM",
+                    "FLSDepartureName": "Chhatrapati Shivaji Maharaj Airport",
+                    "FLSArrivalDateTime": "2023-01-25T23:50:00",
+                    "FLSArrivalTimeOffset": "+0530",
+                    "FLSArrivalCode": "CCU",
+                    "FLSArrivalName": "Subhas Chandra Bose Airport",
+                    "FLSFlightType": "NonStop",
+                    "FLSFlightLegs": "1",
+                    "FLSFlightDays": "..3....",
+                    "FLSDayIndicator": ""
+                },
+                "FlightLegDetails": [
+                    {
+                        "$": {
+                            "DepartureDateTime": "2023-01-25T21:05:00",
+                            "FLSDepartureTimeOffset": "+0530",
+                            "ArrivalDateTime": "2023-01-25T23:50:00",
+                            "FLSArrivalTimeOffset": "+0530",
+                            "FlightNumber": "774",
+                            "JourneyDuration": "PT2H45M",
+                            "SequenceNumber": "1",
+                            "LegDistance": "1037",
+                            "FLSMeals": "D",
+                            "FLSInflightServices": "  9",
+                            "FLSUUID": "BOMCCU20230125AI774"
+                        },
+                        "DepartureAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "BOM",
+                                    "FLSLocationName": "Chhatrapati Shivaji Maharaj Airport",
+                                    "Terminal": "2",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "ArrivalAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "CCU",
+                                    "FLSLocationName": "Subhas Chandra Bose Airport",
+                                    "Terminal": " ",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "MarketingAirline": [
+                            {
+                                "$": {
+                                    "Code": "AI",
+                                    "CodeContext": "IATA",
+                                    "CompanyShortName": "Air India"
+                                }
+                            }
+                        ],
+                        "Equipment": [
+                            {
+                                "$": {
+                                    "AirEquipType": "319"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "$": {
+                    "TotalFlightTime": "PT2H40M",
+                    "TotalMiles": "1037",
+                    "TotalTripTime": "PT2H40M",
+                    "FLSDepartureDateTime": "2023-01-25T22:25:00",
+                    "FLSDepartureTimeOffset": "+0530",
+                    "FLSDepartureCode": "BOM",
+                    "FLSDepartureName": "Chhatrapati Shivaji Maharaj Airport",
+                    "FLSArrivalDateTime": "2023-01-26T01:05:00",
+                    "FLSArrivalTimeOffset": "+0530",
+                    "FLSArrivalCode": "CCU",
+                    "FLSArrivalName": "Subhas Chandra Bose Airport",
+                    "FLSFlightType": "NonStop",
+                    "FLSFlightLegs": "1",
+                    "FLSFlightDays": "..3....",
+                    "FLSDayIndicator": "+1"
+                },
+                "FlightLegDetails": [
+                    {
+                        "$": {
+                            "DepartureDateTime": "2023-01-25T22:25:00",
+                            "FLSDepartureTimeOffset": "+0530",
+                            "ArrivalDateTime": "2023-01-26T01:05:00",
+                            "FLSArrivalTimeOffset": "+0530",
+                            "DateChangeNbr": "+1",
+                            "FlightNumber": "5287",
+                            "JourneyDuration": "PT2H40M",
+                            "SequenceNumber": "1",
+                            "LegDistance": "1037",
+                            "FLSMeals": "F",
+                            "FLSInflightServices": " ",
+                            "FLSUUID": "BOMCCU202301256E5287"
+                        },
+                        "DepartureAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "BOM",
+                                    "FLSLocationName": "Chhatrapati Shivaji Maharaj Airport",
+                                    "Terminal": "1",
+                                    "FLSDayIndicator": ""
+                                }
+                            }
+                        ],
+                        "ArrivalAirport": [
+                            {
+                                "$": {
+                                    "CodeContext": "IATA",
+                                    "LocationCode": "CCU",
+                                    "FLSLocationName": "Subhas Chandra Bose Airport",
+                                    "Terminal": " ",
+                                    "FLSDayIndicator": "+1"
+                                }
+                            }
+                        ],
+                        "MarketingAirline": [
+                            {
+                                "$": {
+                                    "Code": "6E",
+                                    "CodeContext": "IATA",
+                                    "CompanyShortName": "IndiGo"
+                                }
+                            }
+                        ],
+                        "Equipment": [
+                            {
+                                "$": {
+                                    "AirEquipType": "320"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

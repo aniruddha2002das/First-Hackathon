@@ -1,0 +1,30 @@
+.centerContainer{
+    width: fit-content;
+    height: 50px;
+    display: flex;
+    margin: 50px auto;
+    margin-bottom: 10px;
+    padding: 20px 30px;
+    align-items: center;
+    -webkit-box-shadow: 0 0 3px grey;
+    box-shadow: 0 0 3px grey;
+    border: 1px solid #e7e7e7;
+    border-radius: 5px;
+    z-index: 10;
+}
+a{
+    color:inherit;
+}
+a:hover{
+    text-decoration: none;
+}
+.centerContainer div {
+    margin: 5px 20px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.centerContainer div:hover{
+    color: #2e4ad9;
+}
