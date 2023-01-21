@@ -17,7 +17,7 @@ import moment from 'moment'
 
 function FlightSearch() {
 
-    const [search, clickSearch] = useState(false);
+    const [searchObj, clickedSearch] = useState({state: false, dataObj : null});
     const [From, setFrom] = useState("");
     const [To, setTo] = useState("");
     const [minDate, setMinDate] = useState(null)
@@ -27,9 +27,20 @@ function FlightSearch() {
         setMinDate(moment(min_date).format('YYYY-MM-DD'));
     }, [])
 
-    let result;
-    function searched() {
-        clickSearch(true);
+  
+
+    async function searched() {
+        
+
+        let res = await fetch("http://localhost:8050/flight", {
+            method:'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ from_air: From, to_air: To})
+        })
+
+        const dataOb = await res.json();
+
+        clickedSearch({state:true, dataObj: dataOb});
     }
 
     return (
@@ -41,17 +52,18 @@ function FlightSearch() {
 
                 <div className='input'>
                     <div>FROM</div>
-                    <input type="text" className='input' onChange={(e) => {setFrom(e.target.value)
-                      
+                    <input type="text" className='input' onChange={(e) => {
+                        setFrom(e.target.value)
+
                     }} />
                     <div>To</div>
-                    <input type="text" className='input' onChange={(e) => setTo(e.target.value)}/>
+                    <input type="text" className='input' onChange={(e) => setTo(e.target.value)} />
                 </div>
-               <input type="date"   min={minDate}  />
+                <input type="date" min={minDate} />
+                <button className='button' type='submit' >Search</button>
             </div>
-            <button className='button' type='submit' />
             <>
-                {search ? <FlightResult /> : null}
+                {searchObj.state ? <FlightResult dataObj={searchObj.dataObj} /> : null}
             </>
         </div>
     )
