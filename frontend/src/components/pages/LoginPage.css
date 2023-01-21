@@ -1,0 +1,95 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.red{
+    color:  rgb(255, 35, 35);
+    outline: 1.5px solid rgb(255, 35, 35);
+}
+#center{
+    margin: 8% auto;
+    /* border: 1px solid ; */
+    border-radius: 5px;
+    width: 440px;
+    -webkit-box-shadow: 0 0 2px grey;
+    box-shadow: 0 0 2px grey;
+    padding: 5px 30px;
+    height: 270px;
+}
+         
+h2{
+    font-size: 18px;
+     margin: 12px 0;  
+     color: grey; 
+}
+span{
+    color: rgb(255, 35, 35);
+}
+h4,h3{
+    
+    font-weight: 600;
+    width: fit-content;
+    margin: 5px auto;
+    padding-top: 10px;
+
+}
+h4{
+    padding: 0;
+}
+#content{
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+}
+.box{
+    margin: 10px 0px;
+    padding: 5px 5px;
+    height: 25px;
+    width: 170px;
+    border-radius: 2px;
+    border: 1px solid grey; 
+    /* transition: outline 0.3ms; */
+    display: block;
+}
+.blok{
+    display: block;
+    margin: 0px 10px;
+    margin-top: 12px;
+}
+.box:focus{
+    outline: 1.5px solid rgb(26, 115, 232);
+    
+}
+.horiz{
+    text-align: center;
+}
+#buttons{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.button{
+    font-weight: 500;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 8px 16px;
+    border-radius: 4px;
+}
+#back{
+    background-color: white;
+    border: 1.5px solid rgb(26, 115, 232);
+}
+#back:hover{
+    color: white;
+    background-color: rgb(26, 115, 232);
+    /* border: none; */
+}
+#sub{
+    color: white;
+    background-color: rgb(26, 115, 232);
+    border: none;
+}

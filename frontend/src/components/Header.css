@@ -1,0 +1,32 @@
+.containerAnk{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    margin-bottom: 0;
+    margin-right: 15px;
+    display: flex;
+    list-style: none;
+    
+}
+ul li {
+    margin: 15px;
+}
+ul a {
+    color: #777;
+}
+ul a:hover{
+    text-decoration: none;
+}
+
+nav {
+    width: 100%;
+}
+
+.brandName{
+    margin: 5px 25px;
+    font-size: 18px;
+    color: #337ab7;
+}
