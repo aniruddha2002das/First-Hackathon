@@ -17,7 +17,7 @@ import moment from 'moment'
 
 function FlightSearch() {
 
-    const [searchObj, clickedSearch] = useState({state: false, dataObj : null});
+    const [searchObj, clickedSearch] = useState({ state: false, dataObj: null });
     const [From, setFrom] = useState("");
     const [To, setTo] = useState("");
     const [minDate, setMinDate] = useState(null)
@@ -27,26 +27,26 @@ function FlightSearch() {
         setMinDate(moment(min_date).format('YYYY-MM-DD'));
     }, [])
 
-  
 
-    async function searched() {
-        
 
-        let res = await fetch("http://localhost:8050/flight", {
-            method:'POST',
+    async function searched(e) {
+        e.preventDefault();
+
+        let res = await fetch("http://localhost:8050/flights", {
+            method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ from_air: From, to_air: To})
+            body: JSON.stringify({ from_air: From, to_air: To })
         })
 
         const dataOb = await res.json();
 
-        clickedSearch({state:true, dataObj: dataOb});
+        clickedSearch({ state: true, dataObj: dataOb });
     }
 
     return (
         <div>
             <LinkBar />
-            <div className='searchBox'>
+            <form onSubmit={searched} className='searchBox'>
 
                 <div> Search Your Flight <br /> (e.g. BOM CCU )</div>
 
@@ -60,8 +60,8 @@ function FlightSearch() {
                     <input type="text" className='input' onChange={(e) => setTo(e.target.value)} />
                 </div>
                 <input type="date" min={minDate} />
-                <button className='button' type='submit' >Search</button>
-            </div>
+                <button className='button' type='submit'  >Search</button>
+            </form>
             <>
                 {searchObj.state ? <FlightResult dataObj={searchObj.dataObj} /> : null}
             </>
