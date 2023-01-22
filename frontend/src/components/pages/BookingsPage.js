@@ -10,10 +10,11 @@ function BookingsPage() {
   const [data, setData] = useState([]);
   
   useEffect(()=>{
-    fetch("http://localhost:8050/getBookingFlight")
+    fetch("http://localhost:8050/booking")
     .then(res => res.json())
     .then((data)=>{
       setData(data);
+      console.log(data);
     })
   },[])
 
@@ -21,7 +22,7 @@ function BookingsPage() {
     <div>
       <Header/>
       { data.map((booking) => {
-        
+        console.log(booking);
         return(
           <Bookings obj={booking}/>
         )

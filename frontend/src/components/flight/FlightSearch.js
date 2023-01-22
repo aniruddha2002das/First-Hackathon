@@ -5,6 +5,7 @@ import FlightResult from './FlightResult';
 import './FlightSearch.css'
 import moment from 'moment'
 import Header from '../Header';
+import Loader from '../Loader';
 
 // const min_date = new Date();
 
@@ -24,33 +25,43 @@ function FlightSearch() {
     const [To, setTo] = useState("");
     const [minDate, setMinDate] = useState(null)
 
+    
     useEffect(() => {
         const min_date = new Date();
         setMinDate(moment(min_date).format('YYYY-MM-DD'));
     }, [])
-
-
-
+    
+    
+    
     async function searched(e) {
         e.preventDefault();
-
+        
+        // var elem = document.getElementById("loader");
+        // elem.style.visibility = "visible";
+        // elem.classlist.add("eightyP");
+        
         let res = await fetch("http://localhost:8050/flights", {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ from_air: From, to_air: To, travel_date: travelDate})
         })
-
+        
+        // console.log(elem.style);
         const dataOb = await res.json();
+        // elem.classlist.add("hundredP");
         clickedSearch({ state: true, dataObj: dataOb });
+        // elem.style.visibility = "hidden";
+        // elem.classlist.remove("eightyP hundredP");
     }
 
     return (
         <div>
             <Header/>
+            <Loader />
             <LinkBar />
             <form onSubmit={searched} className='searchBox'>
 
-                <div> Search Your Flight <br /> (e.g. BOM CCU )</div>
+                <div> Search Your Flight <br /> (e.g. BOM, CCU, DEL, IDR, MAA )</div>
 
                 <div className='input'>
                     <div>FROM</div>

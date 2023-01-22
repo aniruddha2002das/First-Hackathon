@@ -3,3 +3,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+.loader{
+    /* position: relative; */
+    height: 3px;
+    background-color: orange;
+    width:10%;
+    position: relative;
+    top: -20px;
+    visibility: hidden;
+    transition: width 1s ease-in-out;
+}
+.tenP{
+    width:10%;
+}
+
+.eightyP{
+    width:80%;
+    /* transition: width 1s ease-in-out; */
+}
+.hundredP{
+    width: 100%;
+}

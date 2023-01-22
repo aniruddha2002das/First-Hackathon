@@ -48,7 +48,7 @@ function LoginPage() {
 		<div>
 			<form onSubmit={loginUser}>
 				<div id="center">
-					<h3>Viaja<span>r</span></h3>
+					<h3>Wonderer</h3>
 					<h4>Login </h4>
 					{/* <hr/> */}
 

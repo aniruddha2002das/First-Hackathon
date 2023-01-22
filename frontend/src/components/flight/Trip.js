@@ -29,6 +29,7 @@ function Trip({ trip }) {
                 Departure_time,Arrival_date,Arrival_time,CompanyShortName,
                 totalTime})
         })
+        alert("Successfully booked");
     }
 
     return (
