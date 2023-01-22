@@ -88,8 +88,9 @@ exports.getBookingFlight = async (req,res) => {
         console.log("hi");
         const result1 = await Air_tripCollection.find({email: 'das.aniruddha655@gmail.com'});
         // arr.push(result1);
-        console.log(result1);
-        res.status(200).send(result1);
+        const result2 = JSON.stringify(result1);
+        // console.log(result2);
+        res.status(200).send(result2);
 
     }
     catch(err){

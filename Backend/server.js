@@ -18,7 +18,7 @@ app.use(cors());
 app.use('/register', SignInRouter);
 app.use('/login', LogInRouter);
 app.use('/flights',flightRouter);
-app.use('/bookings',bookingRouter);
+app.use('/booking',bookingRouter);
 
 // const axios = require("axios");
 
