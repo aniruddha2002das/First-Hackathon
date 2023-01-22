@@ -4,6 +4,7 @@ import { useState } from 'react'
 import FlightResult from './FlightResult';
 import './FlightSearch.css'
 import moment from 'moment'
+import Header from '../Header';
 
 // const min_date = new Date();
 
@@ -45,6 +46,7 @@ function FlightSearch() {
 
     return (
         <div>
+            <Header/>
             <LinkBar />
             <form onSubmit={searched} className='searchBox'>
 

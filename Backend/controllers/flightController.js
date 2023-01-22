@@ -69,7 +69,7 @@ exports.bookingFlight = async (req,res) => {
         const Athe = new Air_tripCollection(req.body);
         const newAthe = await Athe.save();
 
-        console.log(newAthe);
+        // console.log(newAthe);
         // Air_tripCollection.updateOne()
 
         // console.log(newAthe);
@@ -79,4 +79,20 @@ exports.bookingFlight = async (req,res) => {
     }
     
     
+}
+
+
+exports.getBookingFlight = async (req,res) => {
+    try{
+        // let arr = []
+        console.log("hi");
+        const result1 = await Air_tripCollection.find({email: 'das.aniruddha655@gmail.com'});
+        // arr.push(result1);
+        console.log(result1);
+        res.status(200).send(result1);
+
+    }
+    catch(err){
+        res.status(400).send(err);
+    }
 }

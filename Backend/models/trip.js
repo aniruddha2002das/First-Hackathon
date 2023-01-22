@@ -21,10 +21,6 @@ const Air_trip = new mongoose.Schema({
         type: String,
         required: true
     },
-    travel_date: {
-        type: String,
-        required: true
-    },
     Departure_date: {
         type: String,
         required: true
@@ -33,11 +29,11 @@ const Air_trip = new mongoose.Schema({
         type: String,
         required: true
     },
-    Arival_date: {
+    Arrival_date: {
         type: String,
         required: true
     },
-    Arival_time: {
+    Arrival_time: {
         type: String,
         required: true
     },
