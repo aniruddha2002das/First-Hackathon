@@ -19,6 +19,7 @@ function FlightSearch() {
 
     const [searchObj, clickedSearch] = useState({ state: false, dataObj: null });
     const [From, setFrom] = useState("");
+    const [travelDate, setTravelDate] = useState("");
     const [To, setTo] = useState("");
     const [minDate, setMinDate] = useState(null)
 
@@ -35,11 +36,10 @@ function FlightSearch() {
         let res = await fetch("http://localhost:8050/flights", {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ from_air: From, to_air: To })
+            body: JSON.stringify({ from_air: From, to_air: To, travel_date: travelDate})
         })
 
         const dataOb = await res.json();
-
         clickedSearch({ state: true, dataObj: dataOb });
     }
 
@@ -59,7 +59,7 @@ function FlightSearch() {
                     <div>To</div>
                     <input type="text" className='input' onChange={(e) => setTo(e.target.value)} />
                 </div>
-                <input type="date" min={minDate} />
+                <input type="date" min={minDate} onChange={(e) => setTravelDate(e.target.value)}/>
                 <button className='button' type='submit'  >Search</button>
             </form>
             <>

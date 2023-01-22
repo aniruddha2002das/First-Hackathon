@@ -7,7 +7,6 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 exports.createUser = async (req, res) => {
     try {
-
         const newUser = new usr_signIn(req.body);
         // Here password will be encrypted
         const result = await newUser.save();
@@ -22,7 +21,7 @@ exports.createUser = async (req, res) => {
     }
 };
 
-
+// var mail;
 exports.checkID = async (req, res) => {
     try {
 
