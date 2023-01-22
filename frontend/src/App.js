@@ -3,9 +3,11 @@ import HomePage from './components/pages/HomePage';
 import BookingsPage from './components/pages/BookingsPage.js';
 import FlightSearch from './components/flight/FlightSearch';
 import {Routes, Route} from 'react-router-dom';
-import FlightResult from './components/flight/FlightResult';
-import TrainResult from './components/pages/TrainResult';
+import BookTrainTicket from "./components/Railway/BookTrainTicket/BookTrainTicket.js";
+import TrainList from "./components/Railway/Trains/TrainList.js";
 import TrainSearch from './components/pages/TrainSearch';
+// import FlightResult from './components/flight/FlightResult';
+// import TrainResult from './components/pages/TrainResult';
 // import SignupPage from './components/pages/SignupPage'
 // import AddPostPage from './components/pages/AddPostPage.js';
 
@@ -21,7 +23,8 @@ function App() {
           <Route path='/flightsearch' element={<FlightSearch/>} />
           {/* <Route path='/trainresult' element={<TrainResult/>} /> */}
           <Route path='/trainsearch' element={<TrainSearch/>} />
-          
+          <Route path='/railways' element={<BookTrainTicket />}/>
+          <Route path='/train-list' element={<TrainList/>}/>
       
         </Routes>
 
@@ -30,3 +33,5 @@ function App() {
 }
 
 export default App;
+
+ 

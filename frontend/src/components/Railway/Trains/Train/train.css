@@ -1,0 +1,96 @@
+.train{
+    width: 1000px;
+    height: 100%;
+    padding: 20px 20px 14px;
+    border: 1px solid #9b9b9b;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    margin: 10px;
+}
+
+.train-info{
+    display: flex;
+    margin-bottom: 20px;
+    align-items: flex-end;
+    /* justify-content: space-around; */
+}
+.left-info{
+    display: flex;
+    flex-direction: column;
+    min-width: 61px;
+    margin-right: 20px;
+}
+.train-name{
+    font-size: 22px;
+    font-weight: 800;
+    margin: 0px 0px 5px;
+    letter-spacing: -.49px;
+}
+.train-no-dept-on{
+    display: flex;
+    font-size: 12px;
+    letter-spacing: normal;
+    
+}
+/* .train-no{
+    color: #9b9b9b;
+} */
+.khada-danda{
+    margin: 0px 10px;
+}
+b{
+    margin: 0px 2px;
+}
+
+.right-info{
+    display: flex;
+    align-items: flex-start;
+    margin: 0px 20px;
+}
+.right-left-side{
+    display: flex;
+    flex-direction: column;
+}
+.depart-time{
+    font-size: 14px;
+    font-weight: 800;
+    margin: 0px 0px 7px;
+}
+.station-name{
+    font-size: 12px;
+}
+.right-mid-side{
+    display: flex;
+    align-items: center;
+    margin: 0px 20px 8px;
+    /* flex-direction: column; */
+}
+.hr-line{
+    width: 20px;
+    height: 2px;
+    background-color: #9b9b9b;
+    margin: 0px 10px;
+}
+.journey-duration{
+    font-size: 12px;
+    color: #9b9b9b;
+}
+.right-right-side{
+    display: flex;
+    flex-direction: column;
+}
+.arrival-time{
+    font-size: 14px;
+    font-weight: 800;
+    margin: 0px 0px 7px;
+}
+.train-class-card{
+    display: flex;
+    padding: 2px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.train-class-card::-webkit-scrollbar {
+    display: none;
+}

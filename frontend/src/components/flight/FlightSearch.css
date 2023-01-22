@@ -25,7 +25,9 @@
     justify-content: space-evenly;
     align-items: center;
 }
-
+span{
+    color:red
+}
 /* input{
     margin-left: 10px;
     margin-right: 55px;

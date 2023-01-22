@@ -20,23 +20,10 @@ app.use('/login', LogInRouter);
 app.use('/flights',flightRouter);
 app.use('/booking',bookingRouter);
 
-// const axios = require("axios");
+const train_router = require('./routers/train')
+app.use(train_router);
 
-// const options = {
-//   method: 'GET',
-//   url: 'https://best-booking-com-hotel.p.rapidapi.com/booking/best-accommodation',
-//   params: {cityName: 'Mumbai', countryName: 'India'},
-//   headers: {
-//     'X-RapidAPI-Key': '25c45287d9msh50ea2b5a2b76e31p1bc6bdjsn329bc1706e10',
-//     'X-RapidAPI-Host': 'best-booking-com-hotel.p.rapidapi.com'
-//   }
-// };
 
-// axios.request(options).then(function (response) {
-// 	console.log(response.data);
-// }).catch(function (error) {
-// 	console.error(error);
-// });
 
 
 app.listen(port, () => {

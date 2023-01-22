@@ -1,0 +1,37 @@
+.train-class {
+    width: 100%;
+    min-width: 170px;
+    max-width: 216px;
+    height: 110px;
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px 15px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    cursor: pointer;
+    display: inline-block;
+    margin: 10px 20px 10px 0px;
+}
+
+.font-same-size {
+    font: 12px lato;
+}
+
+.top-line {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0px 5px;
+}
+
+.availability-info {
+    color: green;
+    font: 12px lato;
+    margin: 0px 0px 15px;
+}
+
+.free-cancellation {
+    margin: 0px 0px 5px;
+}
+
+.update-info{
+    color: rgb(170, 170, 170);
+}

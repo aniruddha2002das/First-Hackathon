@@ -5,7 +5,7 @@ import FlightResult from './FlightResult';
 import './FlightSearch.css'
 import moment from 'moment'
 import Header from '../Header';
-import Loader from '../Loader';
+// import Loader from '../Loader';
 
 // const min_date = new Date();
 
@@ -57,12 +57,12 @@ function FlightSearch() {
     return (
         <div>
             <Header/>
-            <Loader />
+            
             <LinkBar />
             <form onSubmit={searched} className='searchBox'>
 
                 <div> Search Your Flight <br /> (e.g. BOM, CCU, DEL, IDR, MAA )</div>
-
+                    <span>* </span> Enter Only Valid IATA codes for airports
                 <div className='input'>
                     <div>FROM</div>
                     <input type="text" className='input' onChange={(e) => {

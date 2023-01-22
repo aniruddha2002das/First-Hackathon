@@ -51,7 +51,10 @@ function LoginPage() {
 					<h3>Wonderer</h3>
 					<h4>Login </h4>
 					{/* <hr/> */}
-
+					{/* <span>username : </span> */}
+					username : das.aniruddha655@gmail.com <br/>
+					password : 1234
+						
 					<div id="content" >
 						<div className="horiz">
 							<label htmlFor="uname" className="blok">Username:</label>

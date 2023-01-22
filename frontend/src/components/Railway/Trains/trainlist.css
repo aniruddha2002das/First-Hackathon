@@ -1,0 +1,13 @@
+.train-list{
+    display: flex;
+    flex-direction: column;
+}
+.train-list-heading{
+    align-self: center;
+    margin: 15px;
+}
+.train-component{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
