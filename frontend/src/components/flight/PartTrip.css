@@ -1,0 +1,10 @@
+.topInfo{
+    margin: 10px;
+    justify-content: space-between;
+}
+.fromDiv{
+    width: 200px;
+}
+.toDiv{
+    width: 200px;
+}
