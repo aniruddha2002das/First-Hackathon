@@ -8,8 +8,8 @@ function LinkBar() {
     <div className='centerContainer'>
      <Link to={'/flightsearch'}><div>Flights</div></Link> 
      <Link to={'/trainsearch'}><div>Trains</div></Link> 
-     <Link ><div>Buses</div></Link> 
-     <Link ><div>Hotels</div></Link> 
+     {/* <Link ><div>Buses</div></Link> 
+     <Link ><div>Hotels</div></Link>  */}
     </div>
   )
 }
