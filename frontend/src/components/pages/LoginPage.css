@@ -82,6 +82,7 @@ h4{
 #back{
     background-color: white;
     border: 1.5px solid rgb(26, 115, 232);
+    color: black;
 }
 #back:hover{
     color: white;

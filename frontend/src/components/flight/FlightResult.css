@@ -1,0 +1,20 @@
+.topInfo{
+    display: flex;
+    justify-content: space-evenly;
+}
+.flightresult{
+    margin: 0 auto;
+    margin-top: 20px;
+    width: fit-content;
+    padding: 40px;
+    border: 1.5px solid #e7e7e7;
+}
+span{
+    font-size: 17px;
+    font-weight: 600;
+    color: black;
+}
+
+.topInfo > div{
+    margin: 0 50px;
+}
